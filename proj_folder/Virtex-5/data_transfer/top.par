@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-apurvan-HP-Pavilion-Laptop-15-cc129tx::  Mon Aug 05 02:48:54 2019
+apurvan-HP-Pavilion-Laptop-15-cc129tx::  Fri Aug 09 11:06:30 2019
 
 par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
 
@@ -37,50 +37,48 @@ Device Utilization Summary:
 
    Number of OSERDESs                       12 out of 800     1%
    Number of PLL_ADVs                        1 out of 6      16%
-   Number of Slices                         39 out of 17280   1%
+   Number of Slices                         33 out of 17280   1%
    Number of Slice Registers                67 out of 69120   1%
       Number used as Flip Flops             67
       Number used as Latches                 0
       Number used as LatchThrus              0
 
-   Number of Slice LUTS                     88 out of 69120   1%
-   Number of Slice LUT-Flip Flop pairs     103 out of 69120   1%
+   Number of Slice LUTS                     82 out of 69120   1%
+   Number of Slice LUT-Flip Flop pairs      97 out of 69120   1%
 
 
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 11 secs 
-Finished initial Timing Analysis.  REAL time: 11 secs 
+Starting initial Timing Analysis.  REAL time: 7 secs 
+Finished initial Timing Analysis.  REAL time: 7 secs 
 
 Starting Router
 
 
-Phase  1  : 650 unrouted;      REAL time: 12 secs 
+Phase  1  : 632 unrouted;      REAL time: 8 secs 
 
-Phase  2  : 458 unrouted;      REAL time: 13 secs 
+Phase  2  : 436 unrouted;      REAL time: 8 secs 
 
-Phase  3  : 138 unrouted;      REAL time: 13 secs 
+Phase  3  : 128 unrouted;      REAL time: 9 secs 
 
-Phase  4  : 175 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
-
-Updating file: top.ncd with current fully routed design.
-
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
-
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
-
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 21 secs 
+Phase  4  : 156 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
 Updating file: top.ncd with current fully routed design.
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 22 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 22 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 22 secs 
-Total REAL time to Router completion: 22 secs 
-Total CPU time to Router completion: 22 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Total REAL time to Router completion: 17 secs 
+Total CPU time to Router completion: 13 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -100,8 +98,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.078ns|     N/A|           0
-                                            | HOLD        |     0.496ns|            |       0|           0
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.091ns|     N/A|           0
+                                            | HOLD        |     0.549ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -117,8 +115,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 28 secs 
-Total CPU time to PAR completion: 28 secs 
+Total REAL time to PAR completion: 22 secs 
+Total CPU time to PAR completion: 17 secs 
 
 Peak Memory Usage:  963 MB
 

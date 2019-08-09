@@ -65,32 +65,9 @@ architecture rtl_top of top is
         clk   : in std_logic;
         ce    : in std_logic;
         reset : in std_logic;
-        rng   : out std_logic_vector (31 downto 0)
+        rng   : out std_logic_vector (7 downto 0)
     );
     end component prng_recv;
-    --component ft601 is
-    --    port (
-    --        clk : in  std_logic;
-    --        rst : in  std_logic;
-    --        led : out std_logic;
-
-    --        -- To FT601 chip
-    --        ft601_data   : inout std_logic_vector(31 downto 0);
-    --        ft601_be     : out   std_logic_vector(3 downto 0);
-    --        ft601_rxf_n  : in    std_logic;
-    --        ft601_txe_n  : in    std_logic;
-    --        ft601_wr_n   : out   std_logic;
-    --        ft601_siwu_n : out   std_logic;
-    --        ft601_rd_n   : out   std_logic;
-    --        ft601_oe_n   : out   std_logic;
-
-    --        -- From Internal FIFOs
-    --        data_in     : in  std_logic_vector(31 downto 0);
-    --        req_data    : out std_logic;
-    --        fifo_in_emp : in  std_logic;
-    --        data_wr_en  : in  std_logic
-    --    );
-    --end component ft601;
 
     component ilvds is
         port (
@@ -119,7 +96,7 @@ architecture rtl_top of top is
 
     component osch
         generic (
-            nom_freq: string := "66.5"
+            nom_freq: string := "133.0"
             );
         port (
             stdby : in std_logic;
@@ -129,7 +106,7 @@ architecture rtl_top of top is
         end component;
 
     attribute NOM_FREQ : string;
-    attribute NOM_FREQ of OSCinst0 : label is "66.5";
+    attribute NOM_FREQ of OSCinst0 : label is "133.0";
 
     signal fifo_in         : std_logic_vector(31 downto 0) := (others => '0');
     signal fifo_wr_clk     : std_logic                     := '0';
@@ -151,32 +128,28 @@ architecture rtl_top of top is
     signal ce              : std_logic := '0';
     signal mode            : std_logic;
     signal link_rdy        : std_logic;
-    signal ber             : std_logic_vector(31 downto 0);
-    signal debug : std_logic_vector(9 downto 0);
     signal clk_int : std_logic;
     signal data_valid : std_logic;
     signal dec_data : std_logic_vector (7 downto 0);
     signal enc_data : std_logic_vector (9 downto 0);
-    signal rng_num : std_logic_vector(31 downto 0);
+    signal rng_num : std_logic_vector(7 downto 0);
 
 begin
 
     FT601_RST_N <= '1';
-    --LED <= link_rdy;
+    LED <= link_rdy;
     rst <= '0';
     ce <= link_rdy when falling_edge(mode);
     fifo_rst <= not link_rdy;
-    fifo_rprst <= not fifo_rd_en;
     fifo_wr_en <= ce and data_valid;
-    fifo_rd_en <= '1' when rising_edge(fifo_almst_full);
     --send_data(31 downto 8) <= (others => '0');
-    send_data(31 downto 0) <= rng_num(31 downto 0);
+    send_data(7 downto 0) <= dec_data;
     --FT601_DATA <= gen_data;
     --FT601_SIWU_N <= ce;
 
     oscinst0: osch
     generic map (
-        nom_freq => "66.5"
+        nom_freq => "133.0"
     )
     port map (
         stdby => '0',
@@ -211,8 +184,8 @@ begin
             SEED => "10111010110011001111000001010011"
         )
         port map (
-            clk   => clk_int,
-            ce    => '1',
+            clk   => sclk,
+            ce    => fifo_wr_en,
             reset => rst,
             rng   => rng_num
         );
@@ -220,9 +193,9 @@ begin
     cdc_fifo_inst : async_fifo
         port map (
             data     => send_data,
-            wr_clock => clk_int,
+            wr_clock => sclk,
             rd_clock => FT601_CLK,
-            wr_en    => '1',
+            wr_en    => fifo_wr_en,
             rd_en    => req_data,
             reset    => rst,
             rpreset  => rst,
@@ -236,7 +209,7 @@ begin
     ft601_comp : entity work.ft601 port map (
         clk => FT601_CLK,
         rst => rst,
-        led => LED,
+        --led => LED,
         ft601_data   => FT601_DATA,
         ft601_be     => FT601_BE,
         ft601_rxf_n  => FT601_RXF_N,
@@ -248,7 +221,6 @@ begin
         data_in      => fifo_out,
         fifo_rd_en   => req_data,
         fifo_emp     => fifo_emp
-        --fifo_aemp    => fifo_almst_emp
     );
 
 end architecture rtl_top;

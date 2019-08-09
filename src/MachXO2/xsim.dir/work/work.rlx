@@ -2,10 +2,11 @@
 2018.3
 Dec  6 2018
 23:39:36
+/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd,1565126232,vhdl,,,,async_fifo,,,,,,,,
 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd,1564953466,vhdl,,,,ddrx4,,,,,,,,
 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd,1564948221,vhdl,/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd,,,deserializer,,,,,,,,
-/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd,1565323855,vhdl,/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd,,,ft601,,,,,,,,
-/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd,1565051255,vhdl,/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd,,,prng_recv,,,,,,,,
+/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd,1565327160,vhdl,/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd,,,ft601,,,,,,,,
+/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd,1565330138,vhdl,/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd,,,prng_recv,,,,,,,,
 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd,1564920664,vhdl,,,,rx_sync,,,,,,,,
-/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd,1565322770,vhdl,,,,top,,,,,,,,
+/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd,1565330219,vhdl,,,,top,,,,,,,,
 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd,1565271313,vhdl,,,,top_tb,,,,,,,,

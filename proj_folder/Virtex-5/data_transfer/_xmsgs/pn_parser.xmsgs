@@ -8,6 +8,15 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/Virtex-5/enc_8b10b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/Virtex-5/prng_send.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/Virtex-5/serdes_10_1.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/Virtex-5/top.vhd&quot; into library work</arg>
 </msg>
 

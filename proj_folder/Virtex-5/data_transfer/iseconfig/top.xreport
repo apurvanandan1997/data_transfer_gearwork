@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-08-04T05:52:09</DateModified>
+  <DateModified>2019-08-09T11:04:27</DateModified>
   <ModuleName>top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/Virtex-5/data_transfer/iseconfig/top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/Virtex-5/data_transfer</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/Virtex-5/data_transfer/</ImplementationReportsDirectory>
   <DateInitialized>2019-08-04T05:52:09</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Mon Aug  5 02:47:55 2019">
+  <application stringID="Xst" timeStamp="Fri Aug  9 11:05:51 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -53,7 +53,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"/>
-          <item stringID="speed" value="2384.599 MHz"/>
+          <item stringID="speed" value="2724.767 MHz"/>
         </row>
       </table>
     </section>
@@ -81,8 +81,8 @@
       <item DEFAULT="100%" label="-slice_utilization_ratio" stringID="XST_SLICEUTILIZATIONRATIO" value="100"/>
       <item DEFAULT="100%" label="-bram_utilization_ratio" stringID="XST_BRAMUTILIZATIONRATIO" value="100"/>
       <item DEFAULT="100%" label="-dsp_utilization_ratio" stringID="XST_DSPUTILIZATIONRATIO" value="100"/>
-      <item DEFAULT="OFF" stringID="XST_LC" value="Off"/>
-      <item DEFAULT="OFF" label="-reduce_control_sets" stringID="XST_REDUCECONTROLSETS" value="Off"/>
+      <item DEFAULT="OFF" stringID="XST_LC" value="Auto"/>
+      <item DEFAULT="OFF" label="-reduce_control_sets" stringID="XST_REDUCECONTROLSETS" value="Auto"/>
       <item DEFAULT="YES" label="-verilog2001" stringID="XST_VERILOG2001" value="YES"/>
       <item DEFAULT="YES" label="-fsm_extract" stringID="XST_FSMEXTRACT" value="YES"/>
       <item DEFAULT="AUTO" label="-fsm_encoding" stringID="XST_FSMENCODING" value="Auto"/>

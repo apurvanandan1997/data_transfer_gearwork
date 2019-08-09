@@ -5,41 +5,41 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="2" update_time="1565293047"/>
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1565323874"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1565330241"/>
             <Task name="Jedecgen" build_result="0" update_result="2" update_time="1565277722"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1565323861">
-            <Task name="Map" build_result="2" update_result="0" update_time="1565323861"/>
+        <Milestone name="Map" build_result="2" build_time="1565330232">
+            <Task name="Map" build_result="2" update_result="0" update_time="1565330232"/>
             <Task name="MapTrace" build_result="0" update_result="2" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="2" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1565323873">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1565323873"/>
+        <Milestone name="PAR" build_result="2" build_time="1565330238">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1565330238"/>
             <Task name="PARTrace" build_result="0" update_result="2" update_time="1564959370"/>
-            <Task name="IOTiming" build_result="0" update_result="2" update_time="1564959324"/>
+            <Task name="IOTiming" build_result="0" update_result="2" update_time="1565328015"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1565323860">
-            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1565323860"/>
-            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1565323874"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1565330231">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1565330231"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1565330241"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="0" update_result="2" update_time="1565323265"/>
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1565327234"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Report name=".vdbs/data_transfer_impl1_map.vdb" last_build_time="1565323861" last_build_size="60644"/>
-        <Report name="data_transfer_impl1.bgn" last_build_time="1565323874" last_build_size="4281"/>
-        <Report name="data_transfer_impl1.bit" last_build_time="1565323874" last_build_size="9793"/>
-        <Report name="data_transfer_impl1.ior" last_build_time="1564959324" last_build_size="4211"/>
+        <Report name=".vdbs/data_transfer_impl1_map.vdb" last_build_time="1565330232" last_build_size="101279"/>
+        <Report name="data_transfer_impl1.bgn" last_build_time="1565330240" last_build_size="4281"/>
+        <Report name="data_transfer_impl1.bit" last_build_time="1565330240" last_build_size="11103"/>
+        <Report name="data_transfer_impl1.ior" last_build_time="1565328015" last_build_size="3674"/>
         <Report name="data_transfer_impl1.jed" last_build_time="1565277722" last_build_size="497255"/>
-        <Report name="data_transfer_impl1.lsedata" last_build_time="1565323859" last_build_size="312244"/>
-        <Report name="data_transfer_impl1.ncd" last_build_time="1565323873" last_build_size="118747"/>
-        <Report name="data_transfer_impl1.ngd" last_build_time="1565323860" last_build_size="79969"/>
+        <Report name="data_transfer_impl1.lsedata" last_build_time="1565330231" last_build_size="275441"/>
+        <Report name="data_transfer_impl1.ncd" last_build_time="1565330238" last_build_size="229438"/>
+        <Report name="data_transfer_impl1.ngd" last_build_time="1565330231" last_build_size="169120"/>
         <Report name="data_transfer_impl1.twr" last_build_time="1564959370" last_build_size="143220"/>
-        <Report name="data_transfer_impl1_map.ncd" last_build_time="1565323860" last_build_size="96016"/>
+        <Report name="data_transfer_impl1_map.ncd" last_build_time="1565330232" last_build_size="170129"/>
         <Report name="data_transfer_impl1_vho.sdf" last_build_time="1565293047" last_build_size="55111"/>
         <Report name="data_transfer_impl1_vho.vho" last_build_time="1565293047" last_build_size="430206"/>
     </Strategy>

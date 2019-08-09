@@ -2,22 +2,6 @@
 <BaliMessageLog>
     <Task name="Map">
         <Message>
-            <ID>1100523</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf(67): Semantic error in &quot;FREQUENCY NET &quot;sclk&quot; 75.000000 MHz ;&quot;: </Dynamic>
-            <Dynamic>sclk matches no clock nets in the design. </Dynamic>
-            <Navigation>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf</Navigation>
-            <Navigation>67</Navigation>
-        </Message>
-        <Message>
-            <ID>1100523</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf(69): Semantic error in &quot;FREQUENCY PORT &quot;CLK_LANE&quot; 300.000000 MHz ;&quot;: </Dynamic>
-            <Dynamic>&quot;CLK_LANE&quot; matches no ports in the design. </Dynamic>
-            <Navigation>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf</Navigation>
-            <Navigation>69</Navigation>
-        </Message>
-        <Message>
             <ID>1166064</ID>
             <Severity>Warning</Severity>
             <Dynamic>input</Dynamic>
@@ -45,19 +29,12 @@
             <ID>1166064</ID>
             <Severity>Warning</Severity>
             <Dynamic>input</Dynamic>
-            <Dynamic>DATA_LANE[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>CLK_LANE</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
             <Dynamic>FT601_RXF_N</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>deser_inst/ddrx4_inst/rx_reset</Dynamic>
         </Message>
         <Message>
             <ID>51001046</ID>
@@ -82,17 +59,47 @@
         <Message>
             <ID>51001046</ID>
             <Severity>Warning</Severity>
-            <Dynamic>DATA_LANE[4:0](0)</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CLK_LANE</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001046</ID>
-            <Severity>Warning</Severity>
             <Dynamic>FT601_RXF_N</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_1_6</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_2_5</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_3_4</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_4_3</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_5_2</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_6_1</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_7_0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>cdc_fifo_inst/async_fifo_0_7</Dynamic>
         </Message>
     </Task>
     <Task name="Lattice_Synthesis">
@@ -185,10 +192,10 @@
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(51): </Dynamic>
+            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(50): </Dynamic>
             <Dynamic>rtl</Dynamic>
             <Navigation>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd</Navigation>
-            <Navigation>51</Navigation>
+            <Navigation>50</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
@@ -217,10 +224,10 @@
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(42): </Dynamic>
+            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(40): </Dynamic>
             <Dynamic>rtl</Dynamic>
             <Navigation>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd</Navigation>
-            <Navigation>42</Navigation>
+            <Navigation>40</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
@@ -239,6 +246,14 @@
             <Navigation>21</Navigation>
         </Message>
         <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(125): </Dynamic>
+            <Dynamic>send_data[31]</Dynamic>
+            <Navigation>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
             <ID>35921205</ID>
             <Severity>Warning</Severity>
             <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(46): </Dynamic>
@@ -248,20 +263,9 @@
             <Navigation>46</Navigation>
         </Message>
         <Message>
-            <ID>35935034</ID>
+            <ID>35001771</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(200): </Dynamic>
-            <Dynamic>decoder_inst</Dynamic>
-            <Navigation>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd</Navigation>
-            <Navigation>200</Navigation>
-        </Message>
-        <Message>
-            <ID>35935034</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(188): </Dynamic>
-            <Dynamic>deser_inst</Dynamic>
-            <Navigation>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd</Navigation>
-            <Navigation>188</Navigation>
+            <Dynamic>fifo_wr_en</Dynamic>
         </Message>
         <Message>
             <ID>35001771</ID>
@@ -351,17 +355,13 @@
         <Message>
             <ID>35002005</ID>
             <Severity>Warning</Severity>
-            <Dynamic>DATA_LANE[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CLK_LANE</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002005</ID>
-            <Severity>Warning</Severity>
             <Dynamic>FT601_RXF_N</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001774</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\deser_inst/counter</Dynamic>
+            <Dynamic>one-hot</Dynamic>
         </Message>
         <Message>
             <ID>35002005</ID>
@@ -386,17 +386,25 @@
         <Message>
             <ID>35002005</ID>
             <Severity>Warning</Severity>
+            <Dynamic>FT601_RXF_N</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
             <Dynamic>DATA_LANE[0]</Dynamic>
         </Message>
         <Message>
-            <ID>35002005</ID>
+            <ID>35001263</ID>
             <Severity>Warning</Severity>
             <Dynamic>CLK_LANE</Dynamic>
         </Message>
         <Message>
-            <ID>35002005</ID>
+            <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>FT601_RXF_N</Dynamic>
+            <Dynamic>/usr/local/diamond/3.10_x64/ispfpga/vhdl_packages/syn_arit.vhd(928): </Dynamic>
+            <Dynamic>\deser_inst/counter_FSM_i6</Dynamic>
+            <Navigation>/usr/local/diamond/3.10_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>928</Navigation>
         </Message>
         <Message>
             <ID>35001611</ID>
@@ -458,32 +466,6 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>DATA_LANE[0]</Dynamic>
-            <Navigation>DATA_LANE[0]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>DATA_LANE[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>CLK_LANE</Dynamic>
-            <Navigation>CLK_LANE</Navigation>
-        </Message>
-        <Message>
-            <ID>1166064</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>input</Dynamic>
-            <Dynamic>CLK_LANE</Dynamic>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
             <Dynamic>FT601_RXF_N</Dynamic>
             <Navigation>FT601_RXF_N</Navigation>
         </Message>
@@ -496,7 +478,21 @@
         <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>14</Dynamic>
+            <Dynamic>10</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=decoder_inst/mode loads=1 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=decoder_inst/mode loads=1 clock_loads=1</Dynamic>
         </Message>
     </Task>
     <Task name="TimingSimFileVHD">

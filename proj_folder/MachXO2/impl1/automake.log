@@ -7,7 +7,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Aug  9 09:40:59 2019
+Fri Aug  9 11:27:10 2019
 
 
 Command Line:  synthesis -f data_transfer_impl1_lattice.synproj -gui -msgset /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/promote.xml 
@@ -105,7 +105,7 @@ Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwo
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(25): " arg1="ft601" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd" arg3="25"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(51): " arg1="rtl" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd" arg3="51"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(50): " arg1="rtl" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd" arg3="50"  />
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(26): " arg1="top" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd" arg3="26"  />
@@ -113,7 +113,7 @@ Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwo
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(21): " arg1="prng_recv" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd" arg3="21"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(42): " arg1="rtl" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd" arg3="42"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(40): " arg1="rtl" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd" arg3="40"  />
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd(8): " arg1="rx_sync" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd" arg3="8"  />
@@ -122,6 +122,7 @@ unit top is not yet analyzed. VHDL-1485
 unit top is not yet analyzed. VHDL-1485
 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(26): executing top(rtl_top)
 
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(125): " arg1="send_data[31]" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd" arg3="125"  />
     <postMsg mid="35921205" type="Warning" dynamic="3" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(46): " arg1="top" arg2="rtl_top" arg3="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd" arg4="46"  />
 Top module name (VHDL): top
 Last elaborated design is top(rtl_top)
@@ -132,8 +133,7 @@ Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ng
 Loading device for application map from file 'xo2c2000.nph' in environment: /usr/local/diamond/3.10_x64/ispfpga.
 Package Status:                     Final          Version 1.44.
 Top-level module name = top.
-    <postMsg mid="35935034" type="Warning" dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(200): " arg1="decoder_inst" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd" arg3="200"  />
-    <postMsg mid="35935034" type="Warning" dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(188): " arg1="deser_inst" arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd" arg3="188"  />
+    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="fifo_wr_en"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="sclk"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="link_rdy"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="q8_buf[7]"  />
@@ -151,8 +151,6 @@ Top-level module name = top.
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[3]"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[2]"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[1]"  />
-    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[0]"  />
-    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="CLK_LANE"  />
 ######## Converting I/O port FT601_DATA[31] to output.
 ######## Converting I/O port FT601_DATA[30] to output.
 ######## Converting I/O port FT601_DATA[29] to output.
@@ -186,6 +184,67 @@ Top-level module name = top.
 ######## Converting I/O port FT601_DATA[1] to output.
 ######## Converting I/O port FT601_DATA[0] to output.
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="FT601_RXF_N"  />
+######## Missing driver on net send_data[31]. Patching with GND.
+######## Missing driver on net send_data[30]. Patching with GND.
+######## Missing driver on net send_data[29]. Patching with GND.
+######## Missing driver on net send_data[28]. Patching with GND.
+######## Missing driver on net send_data[27]. Patching with GND.
+######## Missing driver on net send_data[26]. Patching with GND.
+######## Missing driver on net send_data[25]. Patching with GND.
+######## Missing driver on net send_data[24]. Patching with GND.
+######## Missing driver on net send_data[23]. Patching with GND.
+######## Missing driver on net send_data[22]. Patching with GND.
+######## Missing driver on net send_data[21]. Patching with GND.
+######## Missing driver on net send_data[20]. Patching with GND.
+######## Missing driver on net send_data[19]. Patching with GND.
+######## Missing driver on net send_data[18]. Patching with GND.
+######## Missing driver on net send_data[17]. Patching with GND.
+######## Missing driver on net send_data[16]. Patching with GND.
+######## Missing driver on net send_data[15]. Patching with GND.
+######## Missing driver on net send_data[14]. Patching with GND.
+######## Missing driver on net send_data[13]. Patching with GND.
+######## Missing driver on net send_data[12]. Patching with GND.
+######## Missing driver on net send_data[11]. Patching with GND.
+######## Missing driver on net send_data[10]. Patching with GND.
+######## Missing driver on net send_data[9]. Patching with GND.
+######## Missing driver on net send_data[8]. Patching with GND.
+    <postMsg mid="35001774" type="Info"    dynamic="2" navigation="0" arg0="\deser_inst/counter" arg1="one-hot"  />
+State machine has 8 reachable states with original encodings of:
+
+ 000 
+
+ 001 
+
+ 010 
+
+ 011 
+
+ 100 
+
+ 101 
+
+ 110 
+
+ 111 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 000 -> 00000001
+
+ 001 -> 00000010
+
+ 010 -> 00000100
+
+ 011 -> 00001000
+
+ 100 -> 00010000
+
+ 101 -> 00100000
+
+ 110 -> 01000000
+
+ 111 -> 10000000
+
 
 
 
@@ -193,9 +252,10 @@ Top-level module name = top.
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[3]"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[2]"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[1]"  />
-    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[0]"  />
-    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="CLK_LANE"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="FT601_RXF_N"  />
+    <postMsg mid="35001263" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[0]"  />
+    <postMsg mid="35001263" type="Warning" dynamic="1" navigation="0" arg0="CLK_LANE"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="/usr/local/diamond/3.10_x64/ispfpga/vhdl_packages/syn_arit.vhd(928): " arg1="\deser_inst/counter_FSM_i6" arg2="/usr/local/diamond/3.10_x64/ispfpga/vhdl_packages/syn_arit.vhd" arg3="928"  />
 GSR will not be inferred because no asynchronous signal was found in the netlist.
 Applying 200.000000 MHz constraint to all clocks
 
@@ -217,30 +277,41 @@ Running DRC...
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="DATA_LANE[2]"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="DATA_LANE[1]" arg2="DATA_LANE[1]"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="DATA_LANE[1]"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="DATA_LANE[0]" arg2="DATA_LANE[0]"  />
-    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="DATA_LANE[0]"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="CLK_LANE" arg2="CLK_LANE"  />
-    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="CLK_LANE"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="FT601_RXF_N" arg2="FT601_RXF_N"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="FT601_RXF_N"  />
-    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="14"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="10"  />
 
 Design Results:
-    110 blocks expanded
+    292 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file data_transfer_impl1.ngd.
 
 ################### Begin Area Report (top)######################
-Number of register bits => 33 of 2352 (1 % )
-CCU2D => 17
-FD1S3AX => 33
+Number of register bits => 79 of 2352 (3 % )
+AND2 => 1
+CLKDIVC => 1
+DELAYE => 1
+DLLDELC => 1
+DQSDLLC => 1
+ECLKSYNCA => 1
+FD1P3AX => 13
+FD1P3DX => 2
+FD1P3IX => 12
+FD1S3AX => 20
+FD1S3BX => 2
+FD1S3DX => 14
+FD1S3IX => 16
 FIFO8KB => 8
 GSR => 1
-IB => 2
-LUT4 => 3
+IB => 4
+IDDRX4B => 1
+INV => 4
+LUT4 => 131
 OB => 42
+OR2 => 1
 OSCH => 1
+PFUMX => 11
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
@@ -249,24 +320,36 @@ TSALL => 1
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 2
-  Net : clk_int, loads : 40
+Number of Clocks: 7
+  Net : deser_inst/ddrx4_inst/sclk, loads : 60
+  Net : clk_int, loads : 18
+  Net : deser_inst/ddrx4_inst/eclko, loads : 3
   Net : FT601_CLK_c, loads : 9
+  Net : decoder_inst/mode, loads : 1
+  Net : deser_inst/ddrx4_inst/eclki, loads : 1
+  Net : buf_clk, loads : 1
 Clock Enable Nets
-Number of Clock Enables: 0
-Top 0 highest fanout Clock Enables:
+Number of Clock Enables: 9
+Top 9 highest fanout Clock Enables:
+  Net : deser_inst/sclk_enable_21, loads : 10
+  Net : deser_inst/sclk_enable_24, loads : 5
+  Net : deser_inst/sclk_enable_8, loads : 2
+  Net : deser_inst/sclk_enable_10, loads : 2
+  Net : deser_inst/sclk_enable_12, loads : 2
+  Net : deser_inst/sclk_enable_6, loads : 2
+  Net : deser_inst/ddrx4_inst/Inst5_rx_sync/N_161_I, loads : 2
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : ft601_comp/tx_active_N_388, loads : 17
-  Net : cdc_fifo_inst/fifo_emp, loads : 9
-  Net : cdc_fifo_inst/full, loads : 8
-  Net : ft601_comp/LED_c, loads : 2
-  Net : FT601_TXE_N_c, loads : 2
-  Net : prng_inst/send_data_31, loads : 1
-  Net : prng_inst/send_data_30, loads : 1
-  Net : prng_inst/send_data_29, loads : 1
-  Net : prng_inst/send_data_28, loads : 1
-  Net : prng_inst/send_data_27, loads : 1
+  Net : deser_inst/ddrx4_inst/Inst5_rx_sync/RSTN_I, loads : 18
+  Net : ft601_comp/tx_active_N_326, loads : 17
+  Net : deser_inst/ddrx4_inst/Inst5_rx_sync/rx_rdy, loads : 16
+  Net : deser_inst/enc_data_2, loads : 13
+  Net : deser_inst/enc_data_0, loads : 13
+  Net : deser_inst/n258, loads : 13
+  Net : deser_inst/enc_data_3, loads : 12
+  Net : deser_inst/enc_data_1, loads : 12
+  Net : deser_inst/enc_data_4, loads : 11
+  Net : deser_inst/n260, loads : 11
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -276,10 +359,16 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk1 [get_nets clk_int]                 |  200.000 MHz|  183.587 MHz|    18 *
+clk3 [get_nets FT601_CLK_c]             |  200.000 MHz|  244.798 MHz|     3  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk0 [get_nets FT601_CLK_c]             |  200.000 MHz|  240.038 MHz|     3  
+clk2 [get_nets \decoder_inst/mode]      |            -|            -|     0  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets clk_int]                 |  200.000 MHz|  185.048 MHz|     4 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets sclk]                    |            -|            -|     0  
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -287,10 +376,10 @@ clk0 [get_nets FT601_CLK_c]             |  200.000 MHz|  240.038 MHz|     3
 1 constraints not met.
 
 
-Peak Memory Usage: 211.000  MB
+Peak Memory Usage: 213.598  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 0.543  secs
+Elapsed CPU time for LSE flow : 0.932  secs
 --------------------------------------------------------------
 
 map -a "MachXO2" -p LCMXO2-2000HC -t TQFP100 -s 6 -oc Commercial   "data_transfer_impl1.ngd" -o "data_transfer_impl1_map.ncd" -pr "data_transfer_impl1.prf" -mp "data_transfer_impl1.mrp" -lpf "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/data_transfer_impl1.lpf" -lpf "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf" -c 0            
@@ -314,8 +403,6 @@ Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 
 Part used: LCMXO2-2000HCTQFP100, Performance used: 6.
 
-    <postMsg mid="1100523" type="Warning" dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf(67): Semantic error in &quot;FREQUENCY NET &quot;sclk&quot; 75.000000 MHz ;&quot;: " arg1="sclk matches no clock nets in the design. " arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf" arg3="67"  />
-    <postMsg mid="1100523" type="Warning" dynamic="2" navigation="2" arg0="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf(69): Semantic error in &quot;FREQUENCY PORT &quot;CLK_LANE&quot; 300.000000 MHz ;&quot;: " arg1="&quot;CLK_LANE&quot; matches no ports in the design. " arg2="/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.lpf" arg3="69"  />
 Loading device for application map from file 'xo2c2000.nph' in environment: /usr/local/diamond/3.10_x64/ispfpga.
 Package Status:                     Final          Version 1.44.
 
@@ -325,39 +412,58 @@ Running general design DRC...
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="DATA_LANE[3]"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="DATA_LANE[2]"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="DATA_LANE[1]"  />
-    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="DATA_LANE[0]"  />
-    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="CLK_LANE"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="FT601_RXF_N"  />
 Removing unused logic...
 
 Optimizing...
 
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="deser_inst/ddrx4_inst/rx_reset"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[4:0](4)"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[4:0](3)"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[4:0](2)"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[4:0](1)"  />
-    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="DATA_LANE[4:0](0)"  />
-    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="CLK_LANE"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="FT601_RXF_N"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_1_6"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_2_5"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_3_4"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_4_3"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_5_2"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_6_1"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_7_0"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="cdc_fifo_inst/async_fifo_0_7"  />
 
 
 
 Design Summary:
-   Number of registers:     33 out of  2352 (1%)
-      PFU registers:           33 out of  2112 (2%)
+   Number of registers:     79 out of  2352 (3%)
+      PFU registers:           79 out of  2112 (4%)
       PIO registers:            0 out of   240 (0%)
-   Number of SLICEs:        19 out of  1056 (2%)
-      SLICEs as Logic/ROM:     19 out of  1056 (2%)
+   Number of SLICEs:        69 out of  1056 (7%)
+      SLICEs as Logic/ROM:     69 out of  1056 (7%)
       SLICEs as RAM:            0 out of   792 (0%)
-      SLICEs as Carry:         17 out of  1056 (2%)
-   Number of LUT4s:         38 out of  2112 (2%)
-      Number used as logic LUTs:          4
+      SLICEs as Carry:          0 out of  1056 (0%)
+   Number of LUT4s:        133 out of  2112 (6%)
+      Number used as logic LUTs:        133
       Number used as distributed RAM:     0
-      Number used as ripple logic:       34
+      Number used as ripple logic:        0
       Number used as shift registers:     0
-   Number of PIO sites used: 44 + 4(JTAG) out of 80 (60%)
+   Number of PIO sites used: 48 + 4(JTAG) out of 80 (65%)
+      Number of PIO sites used for single ended IOs: 48
+      Number of PIO sites used for differential IOs: 4 (represented by 2 PIO comps in NCD)
+   Number of IDDR/ODDR/TDDR cells used: 1 out of 240 (0%)
+      Number of IDDR cells:   1
+      Number of ODDR cells:   0
+      Number of TDDR cells:   0
+   Number of PIO using at least one IDDR/ODDR/TDDR: 1 (1 differential)
+      Number of PIO using IDDR only:        1 (1 differential)
+      Number of PIO using ODDR only:        0 (0 differential)
+      Number of PIO using TDDR only:        0 (0 differential)
+      Number of PIO using IDDR/ODDR:        0 (0 differential)
+      Number of PIO using IDDR/TDDR:        0 (0 differential)
+      Number of PIO using ODDR/TDDR:        0 (0 differential)
+      Number of PIO using IDDR/ODDR/TDDR:   0 (0 differential)
    Number of block RAMs:  8 out of 8 (100%)
-   Number of GSRs:  0 out of 1 (0%)
+   Number of GSRs:  1 out of 1 (100%)
    EFB used :       No
    JTAG used :      No
    Readback used :  No
@@ -371,41 +477,63 @@ Design Summary:
    Number of DCCA:  0 out of 8 (0%)
    Number of DCMA:  0 out of 2 (0%)
    Number of PLLs:  0 out of 1 (0%)
-   Number of DQSDLLs:  0 out of 2 (0%)
-   Number of CLKDIVC:  0 out of 4 (0%)
-   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of DQSDLLs:  1 out of 2 (50%)
+   Number of CLKDIVC:  1 out of 4 (25%)
+   Number of ECLKSYNCA:  1 out of 4 (25%)
    Number of ECLKBRIDGECS:  0 out of 2 (0%)
    Notes:-
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
-   Number of clocks:  2
-     Net clk_int: 25 loads, 25 rising, 0 falling (Driver: oscinst0 )
+   Number of clocks:  7
+     Net clk_int: 12 loads, 12 rising, 0 falling (Driver: oscinst0 )
+     Net buf_clk: 1 loads, 1 rising, 0 falling (Driver: PIO CLK_LANE )
      Net FT601_CLK_c: 9 loads, 9 rising, 0 falling (Driver: PIO FT601_CLK )
-   Number of Clock Enables:  1
-     Net tx_active_N_388: 16 loads, 0 LSLICEs
-   Number of LSRs:  0
+     Net sclk: 48 loads, 39 rising, 9 falling (Driver: deser_inst/ddrx4_inst/Inst7_CLKDIVC )
+     Net deser_inst/ddrx4_inst/eclko: 3 loads, 3 rising, 0 falling (Driver: deser_inst/ddrx4_inst/Inst6_ECLKSYNCA )
+     Net deser_inst/ddrx4_inst/eclki: 1 loads, 1 rising, 0 falling (Driver: deser_inst/ddrx4_inst/Inst4_DLLDELC )
+     Net decoder_inst/mode: 1 loads, 0 rising, 1 falling (Driver: decoder_inst/ko_227 )
+   Number of Clock Enables:  11
+     Net deser_inst/sclk_enable_6: 2 loads, 2 LSLICEs
+     Net deser_inst/sclk_enable_21: 7 loads, 7 LSLICEs
+     Net deser_inst/sclk_enable_5: 1 loads, 1 LSLICEs
+     Net deser_inst/sclk_enable_24: 2 loads, 2 LSLICEs
+     Net deser_inst/sclk_enable_10: 1 loads, 1 LSLICEs
+     Net deser_inst/sclk_enable_8: 1 loads, 1 LSLICEs
+     Net deser_inst/sclk_enable_12: 1 loads, 1 LSLICEs
+     Net deser_inst/sclk_enable_25: 1 loads, 1 LSLICEs
+     Net deser_inst/ddrx4_inst/Inst5_rx_sync/N_161_I: 2 loads, 2 LSLICEs
+     Net fifo_wr_en: 8 loads, 0 LSLICEs
+     Net tx_active_N_326: 16 loads, 0 LSLICEs
+   Number of local set/reset loads for net deser_inst/ddrx4_inst/rx_reset merged into GSR:  1
+   Number of LSRs:  6
+     Net deser_inst/n2178: 2 loads, 2 LSLICEs
+     Net deser_inst/n736: 1 loads, 1 LSLICEs
+     Net deser_inst/n1099: 5 loads, 5 LSLICEs
+     Net deser_inst/n2184: 2 loads, 2 LSLICEs
+     Net deser_inst/rx_rdy: 7 loads, 7 LSLICEs
+     Net deser_inst/ddrx4_inst/rx_reset: 1 loads, 0 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net tx_active_N_388: 18 loads
-     Net fifo_emp: 10 loads
-     Net cdc_fifo_inst/full: 8 loads
-     Net VCC_net: 8 loads
-     Net LED_c: 3 loads
-     Net send_data_10: 2 loads
-     Net send_data_11: 2 loads
-     Net send_data_12: 2 loads
-     Net send_data_13: 2 loads
-     Net send_data_14: 2 loads
+     Net deser_inst/rx_rdy: 24 loads
+     Net tx_active_N_326: 18 loads
+     Net enc_data_0: 14 loads
+     Net enc_data_2: 14 loads
+     Net deser_inst/n258: 13 loads
+     Net enc_data_1: 13 loads
+     Net enc_data_3: 13 loads
+     Net enc_data_4: 12 loads
+     Net deser_inst/n260: 11 loads
+     Net LED_c: 11 loads
  
 
-   Number of warnings:  16
+   Number of warnings:  19
    Number of errors:    0
 
 
 
 Total CPU Time: 0 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 180 MB
+Peak Memory Usage: 181 MB
 
 Dumping design to file data_transfer_impl1_map.ncd.
 
@@ -420,7 +548,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "data_transfer_impl1_map.ncd"
-Fri Aug  9 09:41:01 2019
+Fri Aug  9 11:27:12 2019
 
 PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF data_transfer_impl1_map.ncd data_transfer_impl1.dir/5_1.ncd data_transfer_impl1.prf
@@ -444,44 +572,51 @@ License checked out.
 Ignore Preference Error(s):  True
 Device utilization summary:
 
-   PIO (prelim)   44+4(JTAG)/216     22% used
-                  44+4(JTAG)/80      60% bonded
+   PIO (prelim)   48+4(JTAG)/216     24% used
+                  48+4(JTAG)/80      65% bonded
+   IOLOGIC            1/216          <1% used
 
-   SLICE             19/1056          1% used
+   SLICE             69/1056          6% used
 
+   GSR                1/1           100% used
    OSC                1/1           100% used
+   CLKDIV             1/4            25% used
    EBR                8/8           100% used
+   DQSDLL             1/2            50% used
+   DLLDEL             1/8            12% used
+   ECLKSYNC           1/4            25% used
 
 
 INFO: Design contains EBR with ASYNC Reset Mode that has a limitation: The use of the EBR block asynchronous reset requires that certain timing be met between the clock and the reset within the memory block. See the device specific data sheet for additional details.
-Number of Signals: 122
-Number of Connections: 229
+Number of Signals: 254
+Number of Connections: 714
 
 Pin Constraint Summary:
-   44 out of 44 pins locked (100% locked).
+   46 out of 46 pins locked (100% locked).
 
-The following 1 signal is selected to use the primary clock routing resources:
-    clk_int (driver: oscinst0, clk load #: 25)
+The following 2 signals are selected to use the primary clock routing resources:
+    sclk (driver: deser_inst/ddrx4_inst/Inst7_CLKDIVC, clk load #: 48)
+    clk_int (driver: oscinst0, clk load #: 12)
 
 
 The following 2 signals are selected to use the secondary clock routing resources:
     FT601_CLK_c (driver: FT601_CLK, clk load #: 9, sr load #: 0, ce load #: 0)
-    tx_active_N_388 (driver: ft601_comp/SLICE_17, clk load #: 0, sr load #: 0, ce load #: 16)
+    tx_active_N_326 (driver: ft601_comp/SLICE_51, clk load #: 0, sr load #: 0, ce load #: 16)
 
-No signal is selected as Global Set/Reset.
+Signal deser_inst/ddrx4_inst/rx_reset is selected as Global Set/Reset.
 Starting Placer Phase 0.
-..........
+...........
 Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
-....................
-Placer score = 31330.
-Finished Placer Phase 1.  REAL time: 8 secs 
+...................
+Placer score = 51045.
+Finished Placer Phase 1.  REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  31329
-Finished Placer Phase 2.  REAL time: 8 secs 
+Placer score =  51045
+Finished Placer Phase 2.  REAL time: 4 secs 
 
 
 ------------------ Clock Report ------------------
@@ -493,23 +628,25 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Quadrants All (TL, TR, BL, BR) - Global Clocks:
-  PRIMARY "clk_int" from OSC on comp "oscinst0" on site "OSC", clk load = 25
+  PRIMARY "sclk" from CDIVX on comp "deser_inst/ddrx4_inst/Inst7_CLKDIVC" on CLKDIV site "BCLKDIV0", clk load = 48
+  PRIMARY "clk_int" from OSC on comp "oscinst0" on site "OSC", clk load = 12
   SECONDARY "FT601_CLK_c" from comp "FT601_CLK" on CLK_PIN site "63 (PR7A)", clk load = 9, ce load = 0, sr load = 0
-  SECONDARY "tx_active_N_388" from F1 on comp "ft601_comp/SLICE_17" on site "R9C15C", clk load = 0, ce load = 16, sr load = 0
+  SECONDARY "tx_active_N_326" from F1 on comp "ft601_comp/SLICE_51" on site "R9C13B", clk load = 0, ce load = 16, sr load = 0
 
-  PRIMARY  : 1 out of 8 (12%)
+  PRIMARY  : 2 out of 8 (25%)
   SECONDARY: 2 out of 8 (25%)
 
 Edge Clocks:
-  No edge clock selected.
+  ECLK "deser_inst/ddrx4_inst/eclko": BECLK0
+    - From CLK_PIN "34", driver "CLK_LANE".
 
 --------------- End of Clock Report ---------------
 
 
 I/O Usage Summary (final):
-   44 + 4(JTAG) out of 216 (22.2%) PIO sites used.
-   44 + 4(JTAG) out of 80 (60.0%) bonded PIO sites used.
-   Number of PIO comps: 44; differential: 0.
+   48 + 4(JTAG) out of 216 (24.1%) PIO sites used.
+   48 + 4(JTAG) out of 80 (65.0%) bonded PIO sites used.
+   Number of PIO comps: 46; differential: 2.
    Number of Vref pins used: 0.
 
 I/O Bank Usage Summary:
@@ -518,22 +655,24 @@ I/O Bank Usage Summary:
 +----------+----------------+------------+-----------+
 | 0        | 10 / 19 ( 52%) | 2.5V       | -         |
 | 1        | 18 / 21 ( 85%) | 2.5V       | -         |
-| 2        | 0 / 20 (  0%)  | -          | -         |
+| 2        | 4 / 20 ( 20%)  | 2.5V       | -         |
 | 3        | 6 / 6 (100%)   | 2.5V       | -         |
 | 4        | 5 / 6 ( 83%)   | 2.5V       | -         |
 | 5        | 5 / 8 ( 62%)   | 2.5V       | -         |
 +----------+----------------+------------+-----------+
 
-Total placer CPU time: 8 secs 
+Total placer CPU time: 3 secs 
 
 Dumping design to file data_transfer_impl1.dir/5_1.ncd.
 
-0 connections routed; 229 unrouted.
+0 connections routed; 714 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 9 secs 
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=decoder_inst/mode loads=1 clock_loads=1"  />
 
-Start NBR router at Fri Aug 09 09:41:10 IST 2019
+Completed router resource preassignment. Real time: 5 secs 
+
+Start NBR router at Fri Aug 09 11:27:17 IST 2019
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -548,41 +687,89 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at Fri Aug 09 09:41:10 IST 2019
+Start NBR special constraint process at Fri Aug 09 11:27:17 IST 2019
 
-Start NBR section for initial routing at Fri Aug 09 09:41:10 IST 2019
+Start NBR section for initial routing at Fri Aug 09 11:27:17 IST 2019
 Level 1, iteration 1
-0(0.00%) conflict; 128(55.90%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 4.563ns/0.000ns; real time: 9 secs 
+11(0.01%) conflicts; 556(77.87%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.074ns/0.000ns; real time: 5 secs 
 Level 2, iteration 1
-0(0.00%) conflict; 128(55.90%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 4.563ns/0.000ns; real time: 9 secs 
+11(0.01%) conflicts; 536(75.07%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.664ns/0.000ns; real time: 5 secs 
 Level 3, iteration 1
-0(0.00%) conflict; 128(55.90%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 4.563ns/0.000ns; real time: 9 secs 
+9(0.01%) conflicts; 401(56.16%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.014ns/0.000ns; real time: 5 secs 
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 4.543ns/0.000ns; real time: 9 secs 
+24(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.330ns/0.000ns; real time: 5 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at Fri Aug 09 09:41:10 IST 2019
+Start NBR section for normal routing at Fri Aug 09 11:27:17 IST 2019
 Level 1, iteration 1
+4(0.00%) conflicts; 34(4.76%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.044ns/0.000ns; real time: 5 secs 
+Level 1, iteration 2
+2(0.00%) conflicts; 39(5.46%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.330ns/0.000ns; real time: 5 secs 
+Level 2, iteration 1
+2(0.00%) conflicts; 37(5.18%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.330ns/0.000ns; real time: 5 secs 
+Level 3, iteration 1
+3(0.00%) conflicts; 30(4.20%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.330ns/0.000ns; real time: 5 secs 
+Level 4, iteration 1
+11(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.330ns/0.000ns; real time: 5 secs 
+Level 4, iteration 2
+8(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.294ns/0.000ns; real time: 5 secs 
+Level 4, iteration 3
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.304ns/0.000ns; real time: 5 secs 
+Level 4, iteration 4
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.304ns/0.000ns; real time: 6 secs 
+Level 4, iteration 5
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.212ns/0.000ns; real time: 6 secs 
+Level 4, iteration 6
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.212ns/0.000ns; real time: 6 secs 
+Level 4, iteration 7
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.304ns/0.000ns; real time: 6 secs 
+Level 4, iteration 8
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.304ns/0.000ns; real time: 6 secs 
+Level 4, iteration 9
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.304ns/0.000ns; real time: 6 secs 
+Level 4, iteration 10
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.304ns/0.000ns; real time: 6 secs 
+Level 4, iteration 11
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.168ns/0.000ns; real time: 6 secs 
+Level 4, iteration 12
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.168ns/0.000ns; real time: 6 secs 
+Level 4, iteration 13
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.306ns/0.000ns; real time: 6 secs 
+Level 4, iteration 14
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 4.543ns/0.000ns; real time: 9 secs 
+Estimated worst slack/total negative slack<setup>: 1.306ns/0.000ns; real time: 6 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at Fri Aug 09 11:27:18 IST 2019
+
+Start NBR section for re-routing at Fri Aug 09 11:27:18 IST 2019
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 4.543ns/0.000ns; real time: 9 secs 
+Estimated worst slack/total negative slack<setup>: 0.360ns/0.000ns; real time: 6 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at Fri Aug 09 09:41:10 IST 2019
-
-Start NBR section for re-routing at Fri Aug 09 09:41:10 IST 2019
-Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 4.543ns/0.000ns; real time: 9 secs 
-
-Start NBR section for post-routing at Fri Aug 09 09:41:10 IST 2019
+Start NBR section for post-routing at Fri Aug 09 11:27:18 IST 2019
 
 End NBR router with 0 unrouted connection
 
@@ -590,17 +777,19 @@ NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
   Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack<setup> : 4.543ns
+  Estimated worst slack<setup> : 0.360ns
   Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-Total CPU time 9 secs 
-Total REAL time: 9 secs 
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=decoder_inst/mode loads=1 clock_loads=1"  />
+
+Total CPU time 5 secs 
+Total REAL time: 6 secs 
 Completely routed.
-End of route.  229 routed (100.00%); 0 unrouted.
+End of route.  714 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
@@ -611,14 +800,14 @@ Dumping design to file data_transfer_impl1.dir/5_1.ncd.
 
 PAR_SUMMARY::Run status = Success
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = 4.543
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 0.360
 PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
-PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.320
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.304
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 9 secs 
-Total REAL time to completion: 9 secs 
+Total CPU  time to completion: 5 secs 
+Total REAL time to completion: 6 secs 
 
 par done!
 

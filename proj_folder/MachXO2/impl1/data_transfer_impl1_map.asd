@@ -3,13 +3,14 @@ Device = LCMXO2-2000HC;
 Package = TQFP100;
 Performance = 6;
 LUTS_avail = 2112;
-LUTS_used = 38;
+LUTS_used = 133;
 FF_avail = 2192;
-FF_used = 33;
+FF_used = 79;
 INPUT_LVCMOS25 = 2;
+INPUT_LVDS25 = 2;
 OUTPUT_LVCMOS25 = 42;
 IO_avail = 80;
-IO_used = 44;
+IO_used = 48;
 EBR_avail = 8;
 EBR_used = 8;
 ; Begin EBR Section

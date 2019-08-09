@@ -36,8 +36,8 @@ Setup/Hold to clock USER_CLK
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-RESET       |    2.930(R)|    1.056(R)|clk               |   0.000|
-SWITCH      |    2.430(R)|    0.712(R)|clk               |   0.000|
+RESET       |    3.595(R)|    0.971(R)|clk               |   0.000|
+SWITCH      |    1.859(R)|    1.460(R)|clk               |   0.000|
 ------------+------------+------------+------------------+--------+
 
 Clock USER_CLK to Pad
@@ -57,7 +57,7 @@ DATA_LANE_3_N|    7.789(R)|sclk              |   0.000|
 DATA_LANE_3_P|    7.789(R)|sclk              |   0.000|
 DATA_LANE_4_N|    7.800(R)|sclk              |   0.000|
 DATA_LANE_4_P|    7.800(R)|sclk              |   0.000|
-LED          |   14.485(R)|clk               |   0.000|
+LED          |   14.039(R)|clk               |   0.000|
 -------------+------------+------------------+--------+
 
 Clock to Setup on destination clock USER_CLK
@@ -65,11 +65,11 @@ Clock to Setup on destination clock USER_CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-USER_CLK       |    3.078|    1.455|    1.329|    2.035|
+USER_CLK       |    3.108|    1.522|    1.309|    1.700|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Aug  5 02:49:33 2019 
+Analysis completed Fri Aug  9 11:07:01 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:

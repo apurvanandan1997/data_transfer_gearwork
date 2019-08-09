@@ -42,7 +42,6 @@ entity ft601 is
         data_in    : in  std_logic_vector(31 downto 0);
         fifo_rd_en : out std_logic;
         fifo_emp   : in  std_logic
-        --fifo_aemp  : in  std_logic
     );
 
 end entity ft601;

@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd" into library work
-INFO: [VRFC 10-3107] analyzing entity 'ft601'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'top'

@@ -6,12 +6,14 @@ Performance Grade:      6
 PACKAGE:          TQFP100
 Package Status:                     Final          Version 1.44
 
-Fri Aug  9 09:41:09 2019
+Fri Aug  9 11:27:16 2019
 
 Pinout by Port Name:
 +----------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 | Port Name      | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                           |
 +----------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+| CLK_LANE       | 34/2     | LVDS25_IN    | PB11A |           |           |                                      |
+| DATA_LANE[0]   | 45/2     | LVDS25_IN    | PB22A |           |           |                                      |
 | FT601_BE[0]    | 19/3     | LVCMOS25_OUT | PL11B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | FT601_BE[1]    | 18/3     | LVCMOS25_OUT | PL11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | FT601_BE[2]    | 17/4     | LVCMOS25_OUT | PL10B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
@@ -64,6 +66,7 @@ Vccio by Bank:
 +------+-------+
 | 0    | 2.5V  |
 | 1    | 2.5V  |
+| 2    | 2.5V  |
 | 3    | 2.5V  |
 | 4    | 2.5V  |
 | 5    | 2.5V  |
@@ -105,8 +108,8 @@ Pinout by Pin Number:
 | 30/2     |     unused, PULL:DOWN |            |              | PB6B  |               |           |           |
 | 31/2     |     unused, PULL:DOWN |            |              | PB8A  | MCLK/CCLK     |           |           |
 | 32/2     |     unused, PULL:DOWN |            |              | PB8B  | SO/SPISO      |           |           |
-| 34/2     |     unused, PULL:DOWN |            |              | PB11A | PCLKT2_0      |           |           |
-| 35/2     |     unused, PULL:DOWN |            |              | PB11B | PCLKC2_0      |           |           |
+| 34/2     | CLK_LANE+             | LOCATED    | LVDS25_IN    | PB11A | PCLKT2_0      |           |           |
+| 35/2     | CLK_LANE-             |            | LVDS25_IN    | PB11B | PCLKC2_0      |           |           |
 | 36/2     |     unused, PULL:DOWN |            |              | PB12A |               |           |           |
 | 37/2     |     unused, PULL:DOWN |            |              | PB12B |               |           |           |
 | 38/2     |     unused, PULL:DOWN |            |              | PB16A | PCLKT2_1      |           |           |
@@ -115,8 +118,8 @@ Pinout by Pin Number:
 | 41/2     |     unused, PULL:DOWN |            |              | PB18B |               |           |           |
 | 42/2     |     unused, PULL:DOWN |            |              | PB21A |               |           |           |
 | 43/2     |     unused, PULL:DOWN |            |              | PB21B |               |           |           |
-| 45/2     |     unused, PULL:DOWN |            |              | PB22A |               |           |           |
-| 47/2     |     unused, PULL:DOWN |            |              | PB22B |               |           |           |
+| 45/2     | DATA_LANE[0]+         | LOCATED    | LVDS25_IN    | PB22A |               |           |           |
+| 47/2     | DATA_LANE[0]-         |            | LVDS25_IN    | PB22B |               |           |           |
 | 48/2     |     unused, PULL:DOWN |            |              | PB25A | SN            |           |           |
 | 49/2     |     unused, PULL:DOWN |            |              | PB25B | SI/SISPI      |           |           |
 | 51/1     |     unused, PULL:DOWN |            |              | PR14B | DQ1           |           |           |
@@ -313,6 +316,8 @@ Dedicated sysCONFIG Pins:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
+LOCATE  COMP  "CLK_LANE"  SITE  "34";
+LOCATE  COMP  "DATA_LANE[0]"  SITE  "45";
 LOCATE  COMP  "FT601_BE[0]"  SITE  "19";
 LOCATE  COMP  "FT601_BE[1]"  SITE  "18";
 LOCATE  COMP  "FT601_BE[2]"  SITE  "17";
@@ -358,6 +363,8 @@ LOCATE  COMP  "FT601_TXE_N"  SITE  "15";
 LOCATE  COMP  "FT601_WR_N"  SITE  "12";
 LOCATE  COMP  "LED"  SITE  "71";
 
+#DQSDLL
+LOCATE  COMP  "deser_inst/ddrx4_inst/Inst3_DQSDLLC"  SITE  "BDQSDLL" ;
 
 
 
@@ -368,5 +375,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Aug  9 09:41:09 2019
+Fri Aug  9 11:27:17 2019
 

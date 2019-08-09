@@ -27,11 +27,9 @@ entity prng_recv is
     	clk   : in std_logic;
     	ce    : in std_logic;
         reset : in std_logic;
-    	rng   : out std_logic_vector (31 downto 0)
+    	rng   : out std_logic_vector (7 downto 0)
     );
 end prng_recv;
-
-
 
 ----------------------------------------------------------------------------
 --  LFSR RNG (Fibonacci)
@@ -56,8 +54,7 @@ begin
                 if ce = '1' then
     		        --sr <= sr(30 downto 0) & fb;
                     --sr(31 downto 24) <= sr(30 downto 24) & fb;
-                    sr(31 downto 0) <= sr(31 downto 0) + '1';
-
+                    sr(31 downto 24) <= sr(31 downto 24) + '1';
 
                 else
                     sr <= sr;
@@ -67,7 +64,7 @@ begin
         end if;
     end process;
 
-    rng <= sr(31 downto 0);
+    rng <= sr(31 downto 24);
     fb <= sr(31) xor sr(28) xor sr(25) xor sr(24);--sr(31) xor sr(21) xor sr(1) xor sr(0);
 
 end rtl;

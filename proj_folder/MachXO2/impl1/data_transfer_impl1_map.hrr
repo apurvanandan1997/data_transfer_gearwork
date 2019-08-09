@@ -3,36 +3,66 @@ Report for cell top
    Instance path: top
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      19.00        100.0
-                                  LUT4	       4.00        100.0
-                                 IOBUF	         44        100.0
-                                PFUREG	         33        100.0
-                                RIPPLE	         17        100.0
+                                  SLIC	      69.00        100.0
+                                  LUT4	     133.00        100.0
+                                 IOBUF	         46        100.0
+                                PFUREG	         79        100.0
                                    EBR	          8        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-prng_recv("10111010110011001111000001010011")	          1        89.5
-                                 ft601	          1         7.9
+                          deserializer	          1        68.8
+                                 ft601	          1         1.8
                             async_fifo	          1         0.0
+                             dec_8b10b	          1        28.0
 ---------------------------------------------------
-Report for cell prng_recv("10111010110011001111000001010011")
-   Instance path: top/prng_inst
+Report for cell deserializer
+   Instance path: top/deser_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      17.00        89.5
-                                PFUREG	         32        97.0
-                                RIPPLE	         17        100.0
+                                  SLIC	      47.50        68.8
+                                  LUT4	      84.00        63.2
+                                PFUREG	         60        75.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 ddrx4	          1        25.2
+---------------------------------------------------
+Report for cell ddrx4
+   Instance path: top/deser_inst/ddrx4_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.42        25.2
+                                  LUT4	      35.00        26.3
+                                PFUREG	         18        22.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               rx_sync	          1        23.8
+---------------------------------------------------
+Report for cell rx_sync
+   Instance path: top/deser_inst/ddrx4_inst/Inst5_rx_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.42        23.8
+                                  LUT4	      33.00        24.8
+                                PFUREG	         18        22.8
+---------------------------------------------------
+Report for cell dec_8b10b
+   Instance path: top/decoder_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.33        28.0
+                                  LUT4	      44.00        33.1
+                                PFUREG	         17        21.5
+---------------------------------------------------
+Report for cell ft601
+   Instance path: top/ft601_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         1.8
+                                  LUT4	       3.00         2.3
+                                PFUREG	          1         1.3
 ---------------------------------------------------
 Report for cell async_fifo
    Instance path: top/cdc_fifo_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                    EBR	          8        100.0
----------------------------------------------------
-Report for cell ft601
-   Instance path: top/ft601_comp
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	       1.50         7.9
-                                  LUT4	       3.00        75.0
-                                PFUREG	          1         3.0

@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Fri Aug  9 09:40:59 2019
+Fri Aug  9 11:27:10 2019
 
 
 Command Line:  synthesis -f data_transfer_impl1_lattice.synproj -gui -msgset /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/promote.xml 
@@ -102,7 +102,7 @@ INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd. VHDL-1481
 INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(25): analyzing entity ft601. VHDL-1012
-INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(51): analyzing architecture rtl. VHDL-1010
+INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd(50): analyzing architecture rtl. VHDL-1010
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd. VHDL-1481
 INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(26): analyzing entity top. VHDL-1012
@@ -110,7 +110,7 @@ INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd. VHDL-1481
 INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(21): analyzing entity prng_recv. VHDL-1012
-INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(42): analyzing architecture rtl. VHDL-1010
+INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd(40): analyzing architecture rtl. VHDL-1010
 unit top is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd. VHDL-1481
 INFO - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd(8): analyzing entity rx_sync. VHDL-1012
@@ -119,6 +119,7 @@ unit top is not yet analyzed. VHDL-1485
 unit top is not yet analyzed. VHDL-1485
 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(26): executing top(rtl_top)
 
+WARNING - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(125): net send_data[31] does not have a driver. VDB-1002
 WARNING - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(46): replacing existing netlist top(rtl_top). VHDL-1205
 Top module name (VHDL): top
 Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
@@ -128,8 +129,7 @@ Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ng
 Loading device for application map from file 'xo2c2000.nph' in environment: /usr/local/diamond/3.10_x64/ispfpga.
 Package Status:                     Final          Version 1.44.
 Top-level module name = top.
-WARNING - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(200): Removing unused instance decoder_inst. VDB-5034
-WARNING - synthesis: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd(188): Removing unused instance deser_inst. VDB-5034
+WARNING - synthesis: Initial value found on net fifo_wr_en will be ignored due to unrecognized driver type
 WARNING - synthesis: Initial value found on net sclk will be ignored due to unrecognized driver type
 WARNING - synthesis: Initial value found on net link_rdy will be ignored due to unrecognized driver type
 WARNING - synthesis: Initial value found on net q8_buf[7] will be ignored due to unrecognized driver type
@@ -147,8 +147,6 @@ WARNING - synthesis: I/O Port DATA_LANE[4] 's net has no driver and is unused.
 WARNING - synthesis: I/O Port DATA_LANE[3] 's net has no driver and is unused.
 WARNING - synthesis: I/O Port DATA_LANE[2] 's net has no driver and is unused.
 WARNING - synthesis: I/O Port DATA_LANE[1] 's net has no driver and is unused.
-WARNING - synthesis: I/O Port DATA_LANE[0] 's net has no driver and is unused.
-WARNING - synthesis: I/O Port CLK_LANE 's net has no driver and is unused.
 ######## Converting I/O port FT601_DATA[31] to output.
 ######## Converting I/O port FT601_DATA[30] to output.
 ######## Converting I/O port FT601_DATA[29] to output.
@@ -182,6 +180,67 @@ WARNING - synthesis: I/O Port CLK_LANE 's net has no driver and is unused.
 ######## Converting I/O port FT601_DATA[1] to output.
 ######## Converting I/O port FT601_DATA[0] to output.
 WARNING - synthesis: I/O Port FT601_RXF_N 's net has no driver and is unused.
+######## Missing driver on net send_data[31]. Patching with GND.
+######## Missing driver on net send_data[30]. Patching with GND.
+######## Missing driver on net send_data[29]. Patching with GND.
+######## Missing driver on net send_data[28]. Patching with GND.
+######## Missing driver on net send_data[27]. Patching with GND.
+######## Missing driver on net send_data[26]. Patching with GND.
+######## Missing driver on net send_data[25]. Patching with GND.
+######## Missing driver on net send_data[24]. Patching with GND.
+######## Missing driver on net send_data[23]. Patching with GND.
+######## Missing driver on net send_data[22]. Patching with GND.
+######## Missing driver on net send_data[21]. Patching with GND.
+######## Missing driver on net send_data[20]. Patching with GND.
+######## Missing driver on net send_data[19]. Patching with GND.
+######## Missing driver on net send_data[18]. Patching with GND.
+######## Missing driver on net send_data[17]. Patching with GND.
+######## Missing driver on net send_data[16]. Patching with GND.
+######## Missing driver on net send_data[15]. Patching with GND.
+######## Missing driver on net send_data[14]. Patching with GND.
+######## Missing driver on net send_data[13]. Patching with GND.
+######## Missing driver on net send_data[12]. Patching with GND.
+######## Missing driver on net send_data[11]. Patching with GND.
+######## Missing driver on net send_data[10]. Patching with GND.
+######## Missing driver on net send_data[9]. Patching with GND.
+######## Missing driver on net send_data[8]. Patching with GND.
+INFO - synthesis: Extracted state machine for register '\deser_inst/counter' with one-hot encoding
+State machine has 8 reachable states with original encodings of:
+
+ 000 
+
+ 001 
+
+ 010 
+
+ 011 
+
+ 100 
+
+ 101 
+
+ 110 
+
+ 111 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 000 -> 00000001
+
+ 001 -> 00000010
+
+ 010 -> 00000100
+
+ 011 -> 00001000
+
+ 100 -> 00010000
+
+ 101 -> 00100000
+
+ 110 -> 01000000
+
+ 111 -> 10000000
+
 
 
 
@@ -189,9 +248,10 @@ WARNING - synthesis: I/O Port DATA_LANE[4] 's net has no driver and is unused.
 WARNING - synthesis: I/O Port DATA_LANE[3] 's net has no driver and is unused.
 WARNING - synthesis: I/O Port DATA_LANE[2] 's net has no driver and is unused.
 WARNING - synthesis: I/O Port DATA_LANE[1] 's net has no driver and is unused.
-WARNING - synthesis: I/O Port DATA_LANE[0] 's net has no driver and is unused.
-WARNING - synthesis: I/O Port CLK_LANE 's net has no driver and is unused.
 WARNING - synthesis: I/O Port FT601_RXF_N 's net has no driver and is unused.
+WARNING - synthesis: Skipping pad insertion on DATA_LANE[0] due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on CLK_LANE due to black_box_pad_pin attribute.
+WARNING - synthesis: /usr/local/diamond/3.10_x64/ispfpga/vhdl_packages/syn_arit.vhd(928): Register \deser_inst/counter_FSM_i6 is stuck at Zero. VDB-5013
 GSR will not be inferred because no asynchronous signal was found in the netlist.
 Applying 200.000000 MHz constraint to all clocks
 
@@ -209,26 +269,37 @@ WARNING - synthesis: logical net 'DATA_LANE[2]' has no load.
 WARNING - synthesis: input pad net 'DATA_LANE[2]' has no legal load.
 WARNING - synthesis: logical net 'DATA_LANE[1]' has no load.
 WARNING - synthesis: input pad net 'DATA_LANE[1]' has no legal load.
-WARNING - synthesis: logical net 'DATA_LANE[0]' has no load.
-WARNING - synthesis: input pad net 'DATA_LANE[0]' has no legal load.
-WARNING - synthesis: logical net 'CLK_LANE' has no load.
-WARNING - synthesis: input pad net 'CLK_LANE' has no legal load.
 WARNING - synthesis: logical net 'FT601_RXF_N' has no load.
 WARNING - synthesis: input pad net 'FT601_RXF_N' has no legal load.
-WARNING - synthesis: DRC complete with 14 warnings.
+WARNING - synthesis: DRC complete with 10 warnings.
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file data_transfer_impl1.ngd.
 
 ################### Begin Area Report (top)######################
-Number of register bits => 33 of 2352 (1 % )
-CCU2D => 17
-FD1S3AX => 33
+Number of register bits => 79 of 2352 (3 % )
+AND2 => 1
+CLKDIVC => 1
+DELAYE => 1
+DLLDELC => 1
+DQSDLLC => 1
+ECLKSYNCA => 1
+FD1P3AX => 13
+FD1P3DX => 2
+FD1P3IX => 12
+FD1S3AX => 20
+FD1S3BX => 2
+FD1S3DX => 14
+FD1S3IX => 16
 FIFO8KB => 8
 GSR => 1
-IB => 2
-LUT4 => 3
+IB => 4
+IDDRX4B => 1
+INV => 4
+LUT4 => 131
 OB => 42
+OR2 => 1
 OSCH => 1
+PFUMX => 11
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
@@ -237,24 +308,36 @@ TSALL => 1
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 2
-  Net : clk_int, loads : 40
+Number of Clocks: 7
+  Net : deser_inst/ddrx4_inst/sclk, loads : 60
+  Net : clk_int, loads : 18
+  Net : deser_inst/ddrx4_inst/eclko, loads : 3
   Net : FT601_CLK_c, loads : 9
+  Net : decoder_inst/mode, loads : 1
+  Net : deser_inst/ddrx4_inst/eclki, loads : 1
+  Net : buf_clk, loads : 1
 Clock Enable Nets
-Number of Clock Enables: 0
-Top 0 highest fanout Clock Enables:
+Number of Clock Enables: 9
+Top 9 highest fanout Clock Enables:
+  Net : deser_inst/sclk_enable_21, loads : 10
+  Net : deser_inst/sclk_enable_24, loads : 5
+  Net : deser_inst/sclk_enable_8, loads : 2
+  Net : deser_inst/sclk_enable_10, loads : 2
+  Net : deser_inst/sclk_enable_12, loads : 2
+  Net : deser_inst/sclk_enable_6, loads : 2
+  Net : deser_inst/ddrx4_inst/Inst5_rx_sync/N_161_I, loads : 2
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : ft601_comp/tx_active_N_388, loads : 17
-  Net : cdc_fifo_inst/fifo_emp, loads : 9
-  Net : cdc_fifo_inst/full, loads : 8
-  Net : ft601_comp/LED_c, loads : 2
-  Net : FT601_TXE_N_c, loads : 2
-  Net : prng_inst/send_data_31, loads : 1
-  Net : prng_inst/send_data_30, loads : 1
-  Net : prng_inst/send_data_29, loads : 1
-  Net : prng_inst/send_data_28, loads : 1
-  Net : prng_inst/send_data_27, loads : 1
+  Net : deser_inst/ddrx4_inst/Inst5_rx_sync/RSTN_I, loads : 18
+  Net : ft601_comp/tx_active_N_326, loads : 17
+  Net : deser_inst/ddrx4_inst/Inst5_rx_sync/rx_rdy, loads : 16
+  Net : deser_inst/enc_data_2, loads : 13
+  Net : deser_inst/enc_data_0, loads : 13
+  Net : deser_inst/n258, loads : 13
+  Net : deser_inst/enc_data_3, loads : 12
+  Net : deser_inst/enc_data_1, loads : 12
+  Net : deser_inst/enc_data_4, loads : 11
+  Net : deser_inst/n260, loads : 11
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -264,10 +347,16 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk1 [get_nets clk_int]                 |  200.000 MHz|  183.587 MHz|    18 *
+clk3 [get_nets FT601_CLK_c]             |  200.000 MHz|  244.798 MHz|     3  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk0 [get_nets FT601_CLK_c]             |  200.000 MHz|  240.038 MHz|     3  
+clk2 [get_nets \decoder_inst/mode]      |            -|            -|     0  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets clk_int]                 |  200.000 MHz|  185.048 MHz|     4 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets sclk]                    |            -|            -|     0  
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -275,8 +364,8 @@ clk0 [get_nets FT601_CLK_c]             |  200.000 MHz|  240.038 MHz|     3
 1 constraints not met.
 
 
-Peak Memory Usage: 211.000  MB
+Peak Memory Usage: 213.598  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 0.543  secs
+Elapsed CPU time for LSE flow : 0.932  secs
 --------------------------------------------------------------
