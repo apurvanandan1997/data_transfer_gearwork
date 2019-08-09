@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2"  

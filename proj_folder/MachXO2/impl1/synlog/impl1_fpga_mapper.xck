@@ -1,0 +1,4 @@
+CKID0001:@|S:deser_inst.ddrx4_inst.Inst7_CLKDIVC@|E:deser_inst.bit_slip@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:oscinst0@|E:deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT2_REG_Z140@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:cdc_fifo_inst.async_fifo_0_1@|E:fifo_rd_en@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:FT601_CLK@|E:ft601_comp.ft601_oe@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 

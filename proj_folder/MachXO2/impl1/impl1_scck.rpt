@@ -1,0 +1,35 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Sun Aug  4 17:54:04 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                            Requested     Requested     Clock                                        Clock                     Clock
+Level     Clock                            Frequency     Period        Type                                         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                           724.0 MHz     1.381         system                                       system_clkgroup           1    
+                                                                                                                                                   
+0 -       top|FT601_CLK                    363.1 MHz     2.754         inferred                                     Autoconstr_clkgroup_1     252  
+                                                                                                                                                   
+0 -       ddrx4|sclk_inferred_clock        4.1 MHz       244.057       inferred                                     Autoconstr_clkgroup_0     57   
+1 .         dec_8b10b|ko_derived_clock     4.1 MHz       244.057       derived (from ddrx4|sclk_inferred_clock)     Autoconstr_clkgroup_0     1    
+                                                                                                                                                   
+0 -       top|clk_int_inferred_clock       2.1 MHz       480.769       inferred                                     Autoconstr_clkgroup_2     18   
+===================================================================================================================================================

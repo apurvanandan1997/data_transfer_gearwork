@@ -1,0 +1,422 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim
+Easync_fifo
+Z1 w1565200349
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx7 machxo2 10 components 0 22 LY]^fzSOT33GB9N_mJKg02
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd
+Z7 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd
+l0
+L14
+Vk`1abH:oE1d3H_gIZo44S2
+!s100 :82X0bNG3@LeTAFeHfe>g3
+Z8 OW;C;10.5c;63
+32
+Z9 !s110 1565236251
+!i10b 1
+Z10 !s108 1565236251.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd|
+Z12 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+Z15 DEx4 work 10 async_fifo 0 22 k`1abH:oE1d3H_gIZo44S2
+l81
+L30
+Vb3c9W2An]EflY[>ajmB:Y2
+!s100 kR0<T`ObM<K=?i=_]oAFW0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eddrx4
+Z16 w1564953466
+R4
+R5
+R0
+Z17 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd
+Z18 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd
+l0
+L6
+VU9N]AVR4`1`9d003OH7LZ3
+!s100 2DgLKC;PJJ64VcS3XjXnK2
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd|
+Z20 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd|
+!i113 1
+R13
+R14
+Astructure
+R4
+R5
+DEx4 work 5 ddrx4 0 22 U9N]AVR4`1`9d003OH7LZ3
+l180
+L23
+V^ig_g40FA=afc@NnlPLXl2
+!s100 49L_[;C>73c=Ug>H_00A72
+R8
+32
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Edec_8b10b
+Z21 w1564603116
+R4
+R5
+R0
+Z22 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd
+Z23 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd
+l0
+L57
+V]GSa4>1RKolS=SG0ee^>G3
+!s100 aYTX11kA?bTI:[dTmH<C52
+R8
+32
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd|
+Z25 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 9 dec_8b10b 0 22 ]GSa4>1RKolS=SG0ee^>G3
+l81
+L67
+VKOIe6Q2n2RICNJ0G:SP?F2
+!s100 >hdViY88cIASz7FYfko=O1
+R8
+32
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R13
+R14
+Edeserializer
+Z26 w1564948221
+R2
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R4
+R5
+R0
+Z28 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd
+Z29 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd
+l0
+L26
+VY0Ai:5YC^KlMZZo@k>z[=2
+!s100 Xf^b3J]NFC]dAo94eI5aW2
+R8
+32
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd|
+Z31 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R27
+R4
+R5
+Z32 DEx4 work 12 deserializer 0 22 Y0Ai:5YC^KlMZZo@k>z[=2
+l73
+L39
+VzD;Az3gNoY4:7I24H?DYI2
+!s100 RM@iCG2d6EXad8;<YOO4a0
+R8
+32
+R9
+!i10b 1
+R10
+R30
+R31
+!i113 1
+R13
+R14
+Eft601
+Z33 w1565234224
+R2
+R27
+R4
+R5
+R0
+Z34 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd
+Z35 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd
+l0
+L25
+V;MlHlS6]06SJIYiSOIgbe0
+!s100 ]X]_IVgl_ONbIm5Um5mSd0
+R8
+32
+R9
+!i10b 1
+R10
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd|
+Z37 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R27
+R4
+R5
+Z38 DEx4 work 5 ft601 0 22 ;MlHlS6]06SJIYiSOIgbe0
+l55
+L51
+V[IF`_e`ahMfSbZRZO]lbQ2
+!s100 SThP3C:hbKzcFiW1@6FAK3
+R8
+32
+R9
+!i10b 1
+R10
+R36
+R37
+!i113 1
+R13
+R14
+Eprng_recv
+Z39 w1565051257
+R2
+R27
+Z40 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R0
+Z41 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd
+Z42 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd
+l0
+L21
+VQg[Pi=jT3h[5Kf7P3iQXg2
+!s100 5ede8`HQJe:WN6WZfge@Q2
+R8
+32
+R9
+!i10b 1
+R10
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd|
+Z44 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R27
+R40
+R4
+R5
+DEx4 work 9 prng_recv 0 22 Qg[Pi=jT3h[5Kf7P3iQXg2
+l47
+L42
+VAOA43TB=kBoK9Y@PA?<;J1
+!s100 JA4jP;fEN`ccZaAmc?<kK3
+R8
+32
+R9
+!i10b 1
+R10
+R43
+R44
+!i113 1
+R13
+R14
+Erx_sync
+Z45 w1564920664
+R40
+R4
+R5
+R0
+Z46 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd
+Z47 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd
+l0
+L8
+V=>SHDgEGQ^Y4j_K:>4jHA3
+!s100 l1nnPWk8BUY;>W@U0IXV^0
+R8
+32
+R9
+!i10b 1
+R10
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd|
+Z49 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd|
+!i113 1
+R13
+R14
+Artl
+R40
+R4
+R5
+Z50 DEx4 work 7 rx_sync 0 22 =>SHDgEGQ^Y4j_K:>4jHA3
+l110
+L21
+Z51 VP^;P^D25aCn1?I6h^W>S31
+Z52 !s100 ^0lh;=RQR2fJ;noj<D?bg2
+R8
+32
+R9
+!i10b 1
+R10
+R48
+R49
+!i113 1
+R13
+R14
+Cstructure_con
+easync_fifo
+aStructure
+DPx7 machxo2 4 mem3 0 22 hUK7gf][[L4hXRm8O[]LY2
+DPx7 machxo2 6 global 0 22 CNgIJH^F5d6C23]4BRbU30
+R27
+DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+DEx7 machxo2 7 fifo8kb 0 22 jfc_Bi8Gzo6LY6WjUU@N=0
+DEx7 machxo2 3 vlo 0 22 e:NRIdTk94AIDCKaH3gn>1
+DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+DEx7 machxo2 3 vhi 0 22 K5=QBTfB?ZWgZP]=YD<3e1
+DAx4 work 10 async_fifo 9 structure 22 b3c9W2An]EflY[>ajmB:Y2
+R2
+R3
+R4
+R5
+R15
+R1
+R0
+R6
+R7
+l0
+L183
+VIcijCbn<NIczT1U7ES]NN0
+!s100 h7EaEHT0@56nLLDh:0DYL2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Etop
+Z53 w1565236246
+R2
+R27
+R4
+R5
+R0
+Z54 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd
+Z55 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd
+l0
+L26
+VZ[lE>9;gFEl]?Xc0k_]cE0
+!s100 P=6T3@JCB>z9jH`C4RF]A3
+R8
+32
+R9
+!i10b 1
+R10
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd|
+Z57 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd|
+!i113 1
+R13
+R14
+Artl_top
+R38
+R32
+R2
+R27
+R4
+R5
+DEx4 work 3 top 0 22 Z[lE>9;gFEl]?Xc0k_]cE0
+l165
+L48
+VG?dUKDYBSFV^Q>>[XBm>f3
+!s100 U09VGY=KA77HLC5a=N@`S1
+R8
+32
+R9
+!i10b 1
+R10
+R56
+R57
+!i113 1
+R13
+R14
+Etop_tb
+Z58 w1565236038
+R4
+R5
+R0
+Z59 8/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd
+Z60 F/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd
+l0
+L35
+VJVnNlbYFX^Wd8WZ56_O3c1
+!s100 @aC61`ARUD;4;cmTj@WLZ1
+R8
+32
+R9
+!i10b 1
+R10
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd|
+Z62 !s107 /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 6 top_tb 0 22 JVnNlbYFX^Wd8WZ56_O3c1
+l119
+L38
+VZ2^Q@:5F0DY2igjffBlWK3
+!s100 >eReik;3jnmo1NM549:S`1
+R8
+32
+R9
+!i10b 1
+R10
+R61
+R62
+!i113 1
+R13
+R14

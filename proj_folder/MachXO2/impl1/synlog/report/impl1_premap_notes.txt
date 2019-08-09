@@ -1,0 +1,7 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd":198:4:198:20|Removing sequential instance RX_RESET_REG_Z124 (in view: work.rx_sync(rtl)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":98:8:98:9|Removing sequential instance data_out[31:0] (in view: work.ft601(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":98:8:98:9|Removing sequential instance dat_out_rdy (in view: work.ft601(rtl)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":87:8:87:9|Removing sequential instance i_dat_o_buf[31:0] (in view: work.ft601(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO225 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|There are no possible illegal states for state machine i_pre_valid[0:3] (in view: work.ft601(rtl)); safe FSM implementation is not required.

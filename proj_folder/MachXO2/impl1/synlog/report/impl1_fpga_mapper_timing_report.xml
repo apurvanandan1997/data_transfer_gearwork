@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/synlog/impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ddrx4|sclk_inferred_clock</data>
+<data>185.1 MHz</data>
+<data>99.7 MHz</data>
+<data>-2.313</data>
+</row>
+<row>
+<data>top|FT601_CLK</data>
+<data>216.8 MHz</data>
+<data>184.3 MHz</data>
+<data>-0.814</data>
+</row>
+<row>
+<data>top|clk_int_inferred_clock</data>
+<data>2.1 MHz</data>
+<data>241.9 MHz</data>
+<data>476.636</data>
+</row>
+<row>
+<data>System</data>
+<data>729.9 MHz</data>
+<data>620.4 MHz</data>
+<data>-0.242</data>
+</row>
+</report_table>

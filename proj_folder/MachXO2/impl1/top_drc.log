@@ -1,0 +1,30 @@
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'DATA_LANE[4]' has no load.
+WARNING - synthesis: input pad net 'DATA_LANE[4]' has no legal load.
+WARNING - synthesis: logical net 'DATA_LANE[3]' has no load.
+WARNING - synthesis: input pad net 'DATA_LANE[3]' has no legal load.
+WARNING - synthesis: logical net 'DATA_LANE[2]' has no load.
+WARNING - synthesis: input pad net 'DATA_LANE[2]' has no legal load.
+WARNING - synthesis: logical net 'DATA_LANE[1]' has no load.
+WARNING - synthesis: input pad net 'DATA_LANE[1]' has no legal load.
+WARNING - synthesis: logical net 'DATA_LANE[0]' has no load.
+WARNING - synthesis: input pad net 'DATA_LANE[0]' has no legal load.
+WARNING - synthesis: logical net 'CLK_LANE' has no load.
+WARNING - synthesis: input pad net 'CLK_LANE' has no legal load.
+WARNING - synthesis: logical net 'FT601_RXF_N' has no load.
+WARNING - synthesis: input pad net 'FT601_RXF_N' has no legal load.
+WARNING - synthesis: DRC complete with 14 warnings.
+
+Design Results:
+    110 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file data_transfer_impl1.ngd.

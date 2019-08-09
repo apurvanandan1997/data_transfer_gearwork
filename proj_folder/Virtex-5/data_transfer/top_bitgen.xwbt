@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/Virtex-5/data_transfer/top.ncd
+OUTFILE=/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/Virtex-5/data_transfer/top.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/Virtex-5/data_transfer
+LICENSE=ISE
+USER_INFO=__0_0_0

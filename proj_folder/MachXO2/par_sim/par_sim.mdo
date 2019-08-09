@@ -1,0 +1,13 @@
+if {![file exists "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/par_sim/par_sim.mpf"]} { 
+	project new "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/par_sim" par_sim
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/data_transfer_impl1_vho.vho"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/data_transfer_impl1_vho.vho"
+} else {
+	project open "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/par_sim/par_sim"
+}
+vsim -version

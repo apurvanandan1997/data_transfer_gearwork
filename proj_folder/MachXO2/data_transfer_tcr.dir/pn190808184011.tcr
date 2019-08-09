@@ -1,0 +1,134 @@
+#Start recording tcl command: 8/5/2019 01:10:46
+#Project Location: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2; Project name: data_transfer
+prj_project open "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.ldf"
+prj_run Export -impl impl1 -task Bitgen -forceAll
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task PARTrace
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_src add "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/pcileech_ft601.v"
+prj_src exclude "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd"
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_src exclude "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/pcileech_ft601.v"
+prj_src enable "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd"
+prj_run Export -impl impl1 -task Bitgen
+prj_src exclude "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd"
+prj_src enable "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/pcileech_ft601.v"
+prj_run PAR -impl impl1
+prj_src enable "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd"
+prj_src exclude "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/pcileech_ft601.v"
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen -forceAll
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_src remove "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/pcileech_ft601.v"
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_src remove "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim/beh_sim.spf"
+prj_src add "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim/beh_sim.spf"
+prj_project save
+prj_src remove "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim/beh_sim.spf"
+prj_project save
+prj_src add "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim/beh_sim.spf"
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_src add "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/par_sim/par_sim.spf"
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_run Export -impl impl1 -task TimingSimFileVHD
+prj_project save
+prj_project close
+#Stop recording: 8/8/2019 18:40:11

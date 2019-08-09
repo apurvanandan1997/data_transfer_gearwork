@@ -1,0 +1,75 @@
+Loading design for application iotiming from file data_transfer_impl1.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-2000HC
+Package:     TQFP100
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: top
+// Package: TQFP100
+// ncd File: data_transfer_impl1.ncd
+// Version: Diamond (64-bit) 3.10.0.111.2
+// Written on Mon Aug  5 04:25:24 2019
+// M: Minimum Performance Grade
+// iotiming data_transfer_impl1.ncd data_transfer_impl1.prf -gui -msgset /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6):
+
+// Input Setup and Hold Times
+
+Port         Clock     Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+DATA_LANE[0] CLK_LANE  R    -0.535      6       1.059     M
+FT601_RXF_N  FT601_CLK R     0.876      6       0.120     6
+FT601_TXE_N  FT601_CLK R     0.876      6       0.120     6
+
+
+// Clock to Output Delay
+
+Port           Clock     Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+FT601_BE[0]    FT601_CLK R    11.243         6        3.307          M
+FT601_BE[1]    FT601_CLK R    11.243         6        3.307          M
+FT601_BE[2]    FT601_CLK R    11.240         6        3.309          M
+FT601_BE[3]    FT601_CLK R    11.240         6        3.309          M
+FT601_DATA[0]  FT601_CLK R    11.593         6        2.866          M
+FT601_DATA[10] FT601_CLK R    13.404         6        2.814          M
+FT601_DATA[11] FT601_CLK R    13.404         6        2.844          M
+FT601_DATA[12] FT601_CLK R    13.412         6        2.794          M
+FT601_DATA[13] FT601_CLK R    13.412         6        2.794          M
+FT601_DATA[14] FT601_CLK R    13.760         6        2.801          M
+FT601_DATA[15] FT601_CLK R    13.760         6        2.832          M
+FT601_DATA[16] FT601_CLK R    10.951         6        2.857          M
+FT601_DATA[17] FT601_CLK R    10.951         6        2.940          M
+FT601_DATA[18] FT601_CLK R    10.951         6        3.027          M
+FT601_DATA[19] FT601_CLK R    10.951         6        2.887          M
+FT601_DATA[1]  FT601_CLK R    11.593         6        2.866          M
+FT601_DATA[20] FT601_CLK R    10.588         6        2.881          M
+FT601_DATA[21] FT601_CLK R    10.588         6        2.857          M
+FT601_DATA[22] FT601_CLK R    10.204         6        2.904          M
+FT601_DATA[23] FT601_CLK R    10.204         6        2.904          M
+FT601_DATA[24] FT601_CLK R    10.552         6        3.013          M
+FT601_DATA[25] FT601_CLK R    10.552         6        2.997          M
+FT601_DATA[26] FT601_CLK R    10.524         6        3.024          M
+FT601_DATA[27] FT601_CLK R    10.524         6        3.001          M
+FT601_DATA[28] FT601_CLK R    11.243         6        3.072          M
+FT601_DATA[29] FT601_CLK R    11.975         6        3.113          M
+FT601_DATA[2]  FT601_CLK R    11.941         6        2.831          M
+FT601_DATA[30] FT601_CLK R    11.243         6        2.967          M
+FT601_DATA[31] FT601_CLK R    11.975         6        3.107          M
+FT601_DATA[3]  FT601_CLK R    12.304         6        2.937          M
+FT601_DATA[4]  FT601_CLK R    12.304         6        2.866          M
+FT601_DATA[5]  FT601_CLK R    12.304         6        2.726          M
+FT601_DATA[6]  FT601_CLK R    12.304         6        2.807          M
+FT601_DATA[7]  FT601_CLK R    12.583         6        2.814          M
+FT601_DATA[8]  FT601_CLK R    12.583         6        2.814          M
+FT601_DATA[9]  FT601_CLK R    13.041         6        2.880          M
+FT601_OE_N     FT601_CLK R     8.820         6        2.935          M
+FT601_RD_N     FT601_CLK R     9.546         6        3.181          M
+FT601_WR_N     FT601_CLK R    11.165         6        3.724          M
+LED            CLK_LANE  R    12.417         6        4.577          M
+WARNING: you must also run trce with hold speed: 6

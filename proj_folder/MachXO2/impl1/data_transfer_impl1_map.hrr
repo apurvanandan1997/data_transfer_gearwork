@@ -1,0 +1,38 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.00        100.0
+                                  LUT4	       4.00        100.0
+                                 IOBUF	         44        100.0
+                                PFUREG	         33        100.0
+                                RIPPLE	         17        100.0
+                                   EBR	          8        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+prng_recv("10111010110011001111000001010011")	          1        89.5
+                                 ft601	          1         7.9
+                            async_fifo	          1         0.0
+---------------------------------------------------
+Report for cell prng_recv("10111010110011001111000001010011")
+   Instance path: top/prng_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.00        89.5
+                                PFUREG	         32        97.0
+                                RIPPLE	         17        100.0
+---------------------------------------------------
+Report for cell async_fifo
+   Instance path: top/cdc_fifo_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          8        100.0
+---------------------------------------------------
+Report for cell ft601
+   Instance path: top/ft601_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50         7.9
+                                  LUT4	       3.00        75.0
+                                PFUREG	          1         3.0

@@ -1,0 +1,121 @@
+@N: CD630 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":26:7:26:9|Synthesizing work.top.rtl_top.
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+@W: CD276 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":48:8:48:15|Map for port data_out of component ft601 not found
+@W: CD276 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":49:8:49:18|Map for port dat_out_rdy of component ft601 not found
+@W: CD730 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Component declaration has 15 ports but entity declares 17 ports
+@W: CD326 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Port dat_out_rdy of entity work.ft601 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Port data_out of entity work.ft601 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Port led of entity work.ft601 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":123:11:123:17|Signal fifo_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":124:11:124:21|Signal fifo_wr_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":125:11:125:21|Signal fifo_rd_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":138:11:138:14|Signal eclk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":143:11:143:13|Signal ber is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":144:11:144:15|Signal debug is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":25:7:25:11|Synthesizing work.ft601.rtl.
+Post processing for work.ft601.rtl
+@N: CD630 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd":14:7:14:16|Synthesizing work.async_fifo.structure.
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1874:10:1874:16|Synthesizing work.fifo8kb.syn_black_box.
+Post processing for work.fifo8kb.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+Post processing for work.vhi.syn_black_box
+Post processing for work.async_fifo.structure
+@N: CD630 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd":57:7:57:15|Synthesizing work.dec_8b10b.behavioral.
+Post processing for work.dec_8b10b.behavioral
+@N: CD630 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":26:7:26:18|Synthesizing work.deserializer.rtl.
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <8> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <9> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <10> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <11> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <12> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <13> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <14> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <15> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <16> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <17> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <18> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <19> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <20> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <21> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <22> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <23> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <24> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <25> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <26> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <27> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <28> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <29> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <30> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <31> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <32> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <33> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <34> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <35> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <36> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <37> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <38> connection not specified 
+@N: CD367 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":74:4:74:13|Instance ddrx4_inst, Port q, Bit <39> connection not specified 
+@N: CD630 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":6:7:6:11|Synthesizing work.ddrx4.structure.
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":2007:10:2007:16|Synthesizing work.iddrx4b.syn_black_box.
+Post processing for work.iddrx4b.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1904:10:1904:16|Synthesizing work.clkdivc.syn_black_box.
+Post processing for work.clkdivc.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":2143:10:2143:16|Synthesizing work.dlldelc.syn_black_box.
+Post processing for work.dlldelc.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":2107:10:2107:16|Synthesizing work.dqsdllc.syn_black_box.
+Post processing for work.dqsdllc.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":2123:10:2123:15|Synthesizing work.delaye.syn_black_box.
+Post processing for work.delaye.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
+Post processing for work.ib.syn_black_box
+@N: CD630 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd":8:7:8:13|Synthesizing work.rx_sync.rtl.
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":354:10:354:16|Synthesizing work.fd1s3bx.syn_black_box.
+Post processing for work.fd1s3bx.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":365:10:365:16|Synthesizing work.fd1s3dx.syn_black_box.
+Post processing for work.fd1s3dx.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":234:10:234:16|Synthesizing work.fd1p3dx.syn_black_box.
+Post processing for work.fd1p3dx.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1388:10:1388:14|Synthesizing work.pfumx.syn_black_box.
+Post processing for work.pfumx.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":681:10:681:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+Post processing for work.rx_sync.rtl
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1924:10:1924:18|Synthesizing work.eclksynca.syn_black_box.
+Post processing for work.eclksynca.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1276:10:1276:12|Synthesizing work.or2.syn_black_box.
+Post processing for work.or2.syn_black_box
+@N: CD630 :"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":64:10:64:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+Post processing for work.ddrx4.structure
+Post processing for work.deserializer.rtl
+Post processing for work.top.rtl_top
+@N: CL201 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":98:8:98:9|Trying to extract state machine for register i_state.
+Extracted state machine for register i_state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@W: CL249 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":98:8:98:9|Initial value is not supported on state machine i_state
+@N: CL201 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|Trying to extract state machine for register i_pre_valid.
+Extracted state machine for register i_pre_valid
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   011
+   111
+@W: CL249 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|Initial value is not supported on state machine i_pre_valid
+@N: CL201 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|Trying to extract state machine for register i_tx_state.
+Extracted state machine for register i_tx_state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   101
+@W: CL249 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|Initial value is not supported on state machine i_tx_state

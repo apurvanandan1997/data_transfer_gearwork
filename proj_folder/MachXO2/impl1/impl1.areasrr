@@ -1,0 +1,153 @@
+----------------------------------------------------------------------
+Report for cell top.rtl_top
+
+Register bits: 338 of 2112 (16%)
+PIC Latch:       0
+I/O cells:       47
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        1       100.0
+                            CLKDIVC        1       100.0
+                             DELAYE        1       100.0
+                            DLLDELC        1       100.0
+                            DQSDLLC        1       100.0
+                          ECLKSYNCA        1       100.0
+                            FD1P3AX      219       100.0
+                            FD1P3DX        2       100.0
+                            FD1S3AX       57       100.0
+                            FD1S3AY        1       100.0
+                            FD1S3BX        2       100.0
+                            FD1S3DX       14       100.0
+                            FD1S3IX        9       100.0
+                                GSR        1       100.0
+                                 IB        5       100.0
+                            IDDRX4B        1       100.0
+                                INV       10       100.0
+                                 OB        6       100.0
+                                OBZ       36       100.0
+                           OFS1P3DX       34       100.0
+                                OR2        1       100.0
+                           ORCALUT4      538       100.0
+                               OSCH        1       100.0
+                              PFUMX       47       100.0
+                                PUR        1       100.0
+                                VHI        7       100.0
+                                VLO        7       100.0
+                            fifo8kb        2       100.0
+SUB MODULES 
+                         async_fifo        1       100.0
+                              ddrx4        1       100.0
+                          dec_8b10b        1       100.0
+                       deserializer        1       100.0
+                              ft601        1       100.0
+                            rx_sync        1       100.0
+                            
+                         TOTAL          1013           
+----------------------------------------------------------------------
+Report for cell ft601.netlist
+     Instance path:  ft601_comp
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX      196        89.5
+                            FD1S3AX       20        35.1
+                            FD1S3AY        1       100.0
+                                INV        6        60.0
+                           ORCALUT4      382        71.0
+                              PFUMX       37        78.7
+                                VHI        1        14.3
+                                VLO        1        14.3
+                            
+                         TOTAL           644           
+----------------------------------------------------------------------
+Report for cell async_fifo.netlist
+     Instance path:  cdc_fifo_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        1        14.3
+                                VLO        1        14.3
+                            fifo8kb        2       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell dec_8b10b.netlist
+     Instance path:  decoder_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX       17        29.8
+                           ORCALUT4       54        10.0
+                              PFUMX        1         2.1
+                                VHI        1        14.3
+                                VLO        1        14.3
+                            
+                         TOTAL            74           
+----------------------------------------------------------------------
+Report for cell deserializer.netlist
+     Instance path:  deser_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        1       100.0
+                            CLKDIVC        1       100.0
+                             DELAYE        1       100.0
+                            DLLDELC        1       100.0
+                            DQSDLLC        1       100.0
+                          ECLKSYNCA        1       100.0
+                            FD1P3AX       22        10.0
+                            FD1P3DX        2       100.0
+                            FD1S3AX       19        33.3
+                            FD1S3BX        2       100.0
+                            FD1S3DX       14       100.0
+                            FD1S3IX        9       100.0
+                                 IB        2        40.0
+                            IDDRX4B        1       100.0
+                                INV        2        20.0
+                                OR2        1       100.0
+                           ORCALUT4       99        18.4
+                              PFUMX        9        19.1
+                                VHI        3        42.9
+                                VLO        3        42.9
+SUB MODULES 
+                              ddrx4        1       100.0
+                            rx_sync        1       100.0
+                            
+                         TOTAL           196           
+----------------------------------------------------------------------
+Report for cell ddrx4.netlist
+     Instance path:  deser_inst.ddrx4_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        1       100.0
+                            CLKDIVC        1       100.0
+                             DELAYE        1       100.0
+                            DLLDELC        1       100.0
+                            DQSDLLC        1       100.0
+                          ECLKSYNCA        1       100.0
+                            FD1P3DX        2       100.0
+                            FD1S3BX        2       100.0
+                            FD1S3DX       14       100.0
+                                 IB        2        40.0
+                            IDDRX4B        1       100.0
+                                INV        2        20.0
+                                OR2        1       100.0
+                           ORCALUT4       26         4.8
+                              PFUMX        1         2.1
+                                VHI        2        28.6
+                                VLO        2        28.6
+SUB MODULES 
+                            rx_sync        1       100.0
+                            
+                         TOTAL            62           
+----------------------------------------------------------------------
+Report for cell rx_sync.netlist
+     Instance path:  deser_inst.ddrx4_inst.Inst5_rx_sync
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        2       100.0
+                            FD1S3BX        2       100.0
+                            FD1S3DX       14       100.0
+                                INV        1        10.0
+                           ORCALUT4       26         4.8
+                              PFUMX        1         2.1
+                                VHI        1        14.3
+                                VLO        1        14.3
+                            
+                         TOTAL            48           

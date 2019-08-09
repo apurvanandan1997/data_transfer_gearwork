@@ -1,0 +1,27 @@
+if {![file exists "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim/beh_sim.mpf"]} { 
+	project new "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim" beh_sim
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top_tb.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd"
+} else {
+	project open "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/beh_sim/beh_sim"
+}
+vsim -version

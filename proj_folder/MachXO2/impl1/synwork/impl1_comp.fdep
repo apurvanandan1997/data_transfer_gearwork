@@ -1,0 +1,61 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/synwork/impl1_comp.srs|-autotop|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/linux_a_64/c_vhdl":1501863388
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/location.map":1501886520
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/std.vhd":1501862701
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/snps_haps_pkg.vhd":1501862701
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/std1164.vhd":1501862701
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/numeric.vhd":1501862701
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/umr_capim.vhd":1501862701
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/arith.vhd":1501862700
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/unsigned.vhd":1501862701
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/vhd/hyperents.vhd":1501862700
+#CUR:"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd":1493334708
+#CUR:"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd":1564917250
+#CUR:"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd":1564603116
+#CUR:"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":1564917555
+#CUR:"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd":1564920664
+#CUR:"/usr/local/diamond/3.10_x64/synpbase/lib/lucent/machxo2.vhd":1501862962
+#CUR:"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":1564920647
+#CUR:"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":1564920850
+#CUR:"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":1564920895
+0			"/usr/local/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" vhdl
+1			"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd" vhdl
+2			"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd" vhdl
+3			"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/dec_8b10b.vhd" vhdl
+4			"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd" vhdl
+5			"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd" vhdl
+6			"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd" vhdl
+7			"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 7
+3 -1
+4 2
+5 -1
+6 5 1 3 4
+7 -1
+#Dependency Lists(Users Of)
+0 -1
+1 6
+2 4
+3 6
+4 6
+5 6
+6 -1
+7 2
+#Design Unit to File Association
+module work rx_sync 7
+arch work rx_sync rtl 7
+module work top 6
+arch work top rtl_top 6
+module work ft601 5
+arch work ft601 rtl 5
+module work deserializer 4
+arch work deserializer rtl 4
+module work dec_8b10b 3
+arch work dec_8b10b behavioral 3
+module work ddrx4 2
+arch work ddrx4 structure 2
+module work async_fifo 1
+arch work async_fifo structure 1

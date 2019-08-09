@@ -1,0 +1,42 @@
+
+fsm_encoding {11988981} onehot
+
+fsm_state_encoding {11988981} idle {000001}
+
+fsm_state_encoding {11988981} intmdt1 {000010}
+
+fsm_state_encoding {11988981} intmdt2 {000100}
+
+fsm_state_encoding {11988981} intmdt3 {001000}
+
+fsm_state_encoding {11988981} active_rx {010000}
+
+fsm_state_encoding {11988981} active_tx {100000}
+
+fsm_registers {11988981} {i_state[0]}  {i_state[1]}  {i_state[2]}  {i_state[3]}  {i_state[4]}  {i_state[5]} 
+
+fsm_encoding {1115881582} sequential
+
+fsm_state_encoding {1115881582} idle {00}
+
+fsm_state_encoding {1115881582} 001 {01}
+
+fsm_state_encoding {1115881582} 011 {10}
+
+fsm_state_encoding {1115881582} 111 {11}
+
+fsm_registers {1115881582} {i_pre_valid[1]}  {i_pre_valid[0]} 
+
+fsm_encoding {1115881583} original
+
+fsm_state_encoding {1115881583} idle {000}
+
+fsm_state_encoding {1115881583} intmdt1 {001}
+
+fsm_state_encoding {1115881583} intmdt2 {010}
+
+fsm_state_encoding {1115881583} intmdt3 {011}
+
+fsm_state_encoding {1115881583} active_tx {101}
+
+fsm_registers {1115881583} {i_tx_state[2]}  {i_tx_state[1]}  {i_tx_state[0]} 

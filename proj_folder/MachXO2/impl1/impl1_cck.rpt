@@ -1,0 +1,156 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Sun Aug  4 17:54:05 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                       Ending                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                         System                         |     1.381            |     No paths         |     No paths         |     No paths                         
+System                         ddrx4|sclk_inferred_clock      |     244.057          |     No paths         |     No paths         |     No paths                         
+System                         top|FT601_CLK                  |     2.754            |     No paths         |     No paths         |     No paths                         
+System                         top|clk_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+ddrx4|sclk_inferred_clock      System                         |     244.057          |     No paths         |     No paths         |     No paths                         
+ddrx4|sclk_inferred_clock      ddrx4|sclk_inferred_clock      |     244.057          |     No paths         |     122.028          |     122.028                          
+ddrx4|sclk_inferred_clock      dec_8b10b|ko_derived_clock     |     No paths         |     No paths         |     122.028          |     No paths                         
+top|FT601_CLK                  System                         |     2.754            |     No paths         |     No paths         |     No paths                         
+top|FT601_CLK                  top|FT601_CLK                  |     2.754            |     No paths         |     No paths         |     No paths                         
+top|clk_int_inferred_clock     System                         |     480.769          |     No paths         |     No paths         |     No paths                         
+top|clk_int_inferred_clock     ddrx4|sclk_inferred_clock      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+top|clk_int_inferred_clock     top|clk_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+dec_8b10b|ko_derived_clock     System                         |     No paths         |     No paths         |     No paths         |     244.057                          
+=========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:CLK_LANE
+p:DATA_LANE[0]
+p:DATA_LANE[1]
+p:DATA_LANE[2]
+p:DATA_LANE[3]
+p:DATA_LANE[4]
+p:FT601_BE[0]
+p:FT601_BE[1]
+p:FT601_BE[2]
+p:FT601_BE[3]
+p:FT601_DATA[0] (bidir end point)
+p:FT601_DATA[0] (bidir start point)
+p:FT601_DATA[1] (bidir end point)
+p:FT601_DATA[1] (bidir start point)
+p:FT601_DATA[2] (bidir end point)
+p:FT601_DATA[2] (bidir start point)
+p:FT601_DATA[3] (bidir end point)
+p:FT601_DATA[3] (bidir start point)
+p:FT601_DATA[4] (bidir end point)
+p:FT601_DATA[4] (bidir start point)
+p:FT601_DATA[5] (bidir end point)
+p:FT601_DATA[5] (bidir start point)
+p:FT601_DATA[6] (bidir end point)
+p:FT601_DATA[6] (bidir start point)
+p:FT601_DATA[7] (bidir end point)
+p:FT601_DATA[7] (bidir start point)
+p:FT601_DATA[8] (bidir end point)
+p:FT601_DATA[8] (bidir start point)
+p:FT601_DATA[9] (bidir end point)
+p:FT601_DATA[9] (bidir start point)
+p:FT601_DATA[10] (bidir end point)
+p:FT601_DATA[10] (bidir start point)
+p:FT601_DATA[11] (bidir end point)
+p:FT601_DATA[11] (bidir start point)
+p:FT601_DATA[12] (bidir end point)
+p:FT601_DATA[12] (bidir start point)
+p:FT601_DATA[13] (bidir end point)
+p:FT601_DATA[13] (bidir start point)
+p:FT601_DATA[14] (bidir end point)
+p:FT601_DATA[14] (bidir start point)
+p:FT601_DATA[15] (bidir end point)
+p:FT601_DATA[15] (bidir start point)
+p:FT601_DATA[16] (bidir end point)
+p:FT601_DATA[16] (bidir start point)
+p:FT601_DATA[17] (bidir end point)
+p:FT601_DATA[17] (bidir start point)
+p:FT601_DATA[18] (bidir end point)
+p:FT601_DATA[18] (bidir start point)
+p:FT601_DATA[19] (bidir end point)
+p:FT601_DATA[19] (bidir start point)
+p:FT601_DATA[20] (bidir end point)
+p:FT601_DATA[20] (bidir start point)
+p:FT601_DATA[21] (bidir end point)
+p:FT601_DATA[21] (bidir start point)
+p:FT601_DATA[22] (bidir end point)
+p:FT601_DATA[22] (bidir start point)
+p:FT601_DATA[23] (bidir end point)
+p:FT601_DATA[23] (bidir start point)
+p:FT601_DATA[24] (bidir end point)
+p:FT601_DATA[24] (bidir start point)
+p:FT601_DATA[25] (bidir end point)
+p:FT601_DATA[25] (bidir start point)
+p:FT601_DATA[26] (bidir end point)
+p:FT601_DATA[26] (bidir start point)
+p:FT601_DATA[27] (bidir end point)
+p:FT601_DATA[27] (bidir start point)
+p:FT601_DATA[28] (bidir end point)
+p:FT601_DATA[28] (bidir start point)
+p:FT601_DATA[29] (bidir end point)
+p:FT601_DATA[29] (bidir start point)
+p:FT601_DATA[30] (bidir end point)
+p:FT601_DATA[30] (bidir start point)
+p:FT601_DATA[31] (bidir end point)
+p:FT601_DATA[31] (bidir start point)
+p:FT601_OE_N
+p:FT601_RD_N
+p:FT601_RST_N
+p:FT601_RXF_N
+p:FT601_SIWU_N
+p:FT601_TXE_N
+p:FT601_WR_N
+p:LED
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

@@ -1,0 +1,1428 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "top")
+  (DATE "Fri Aug  9 01:07:27 2019")
+  (VENDOR "Lattice")
+  (PROGRAM "ldbanno")
+  (VERSION "Diamond (64-bit) 3.10.0.111.2")
+  (DIVIDER /)
+  (VOLTAGE 1.26:1.20:1.14)
+  (PROCESS "default")
+  (TEMPERATURE -40:25:85)
+  (TIMESCALE 1ps)
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_0")
+    (INSTANCE prng_inst_SLICE_0I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_1")
+    (INSTANCE prng_inst_SLICE_1I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_2")
+    (INSTANCE prng_inst_SLICE_2I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_3")
+    (INSTANCE prng_inst_SLICE_3I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_4")
+    (INSTANCE prng_inst_SLICE_4I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_5")
+    (INSTANCE prng_inst_SLICE_5I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_6")
+    (INSTANCE prng_inst_SLICE_6I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_7")
+    (INSTANCE prng_inst_SLICE_7I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_8")
+    (INSTANCE prng_inst_SLICE_8I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_9")
+    (INSTANCE prng_inst_SLICE_9I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_10")
+    (INSTANCE prng_inst_SLICE_10I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_11")
+    (INSTANCE prng_inst_SLICE_11I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_12")
+    (INSTANCE prng_inst_SLICE_12I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_13")
+    (INSTANCE prng_inst_SLICE_13I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_14")
+    (INSTANCE prng_inst_SLICE_14I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_15")
+    (INSTANCE prng_inst_SLICE_15I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F1 (552:618:684)(552:618:684))
+        (IOPATH A0 FCO (636:711:787)(636:711:787))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+        (IOPATH FCI F0 (364:407:450)(364:407:450))
+        (IOPATH FCI F1 (399:447:495)(399:447:495))
+        (IOPATH FCI FCO (94:112:130)(94:112:130))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "prng_inst_SLICE_16")
+    (INSTANCE prng_inst_SLICE_16I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH B1 F1 (281:344:408)(281:344:408))
+        (IOPATH B1 FCO (552:618:684)(552:618:684))
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 FCO (552:618:684)(552:618:684))
+        (IOPATH CLK Q1 (320:343:367)(320:343:367))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI1 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "ft601_comp_SLICE_17")
+    (INSTANCE ft601_comp_SLICE_17I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH C1 F1 (281:344:408)(281:344:408))
+        (IOPATH B1 F1 (281:344:408)(281:344:408))
+        (IOPATH A1 F1 (281:344:408)(281:344:408))
+        (IOPATH D0 F0 (281:344:408)(281:344:408))
+        (IOPATH C0 F0 (281:344:408)(281:344:408))
+        (IOPATH B0 F0 (281:344:408)(281:344:408))
+        (IOPATH A0 F0 (281:344:408)(281:344:408))
+        (IOPATH CLK Q0 (320:343:367)(320:343:367))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DI0 (posedge CLK) (104:118:133)(-35:-25:-16))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLK) (1000:1000:1000))
+      (WIDTH (negedge CLK) (1000:1000:1000))
+    )
+  )
+  (CELL
+    (CELLTYPE "SLICE_18")
+    (INSTANCE SLICE_18I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH C0 F0 (281:344:408)(281:344:408))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_17_B")
+    (INSTANCE FT601_DATA_17_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA17 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_18_B")
+    (INSTANCE FT601_DATA_18_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA18 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_19_B")
+    (INSTANCE FT601_DATA_19_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA19 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_20_B")
+    (INSTANCE FT601_DATA_20_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA20 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_21_B")
+    (INSTANCE FT601_DATA_21_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA21 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_22_B")
+    (INSTANCE FT601_DATA_22_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA22 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_23_B")
+    (INSTANCE FT601_DATA_23_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA23 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_24_B")
+    (INSTANCE FT601_DATA_24_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA24 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_25_B")
+    (INSTANCE FT601_DATA_25_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA25 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_26_B")
+    (INSTANCE FT601_DATA_26_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA26 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_27_B")
+    (INSTANCE FT601_DATA_27_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA27 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_16_B")
+    (INSTANCE FT601_DATA_16_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA16 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_28_B")
+    (INSTANCE FT601_DATA_28_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA28 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_29_B")
+    (INSTANCE FT601_DATA_29_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA29 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_30_B")
+    (INSTANCE FT601_DATA_30_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA30 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_31_B")
+    (INSTANCE FT601_DATA_31_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA31 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_RST_NB")
+    (INSTANCE FT601_RST_NI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601RSTN (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "LEDB")
+    (INSTANCE LEDI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO LEDS (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_15_B")
+    (INSTANCE FT601_DATA_15_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA15 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_14_B")
+    (INSTANCE FT601_DATA_14_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA14 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_13_B")
+    (INSTANCE FT601_DATA_13_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA13 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_12_B")
+    (INSTANCE FT601_DATA_12_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA12 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_11_B")
+    (INSTANCE FT601_DATA_11_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA11 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_10_B")
+    (INSTANCE FT601_DATA_10_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA10 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_9_B")
+    (INSTANCE FT601_DATA_9_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA9 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_8_B")
+    (INSTANCE FT601_DATA_8_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA8 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_7_B")
+    (INSTANCE FT601_DATA_7_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA7 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_6_B")
+    (INSTANCE FT601_DATA_6_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA6 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_5_B")
+    (INSTANCE FT601_DATA_5_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA5 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_4_B")
+    (INSTANCE FT601_DATA_4_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA4 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_3_B")
+    (INSTANCE FT601_DATA_3_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA3 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_2_B")
+    (INSTANCE FT601_DATA_2_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA2 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_1_B")
+    (INSTANCE FT601_DATA_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA1 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_DATA_0_B")
+    (INSTANCE FT601_DATA_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601DATA0 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_BE_3_B")
+    (INSTANCE FT601_BE_3_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601BE3 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_BE_2_B")
+    (INSTANCE FT601_BE_2_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601BE2 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_BE_1_B")
+    (INSTANCE FT601_BE_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601BE1 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_BE_0_B")
+    (INSTANCE FT601_BE_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601BE0 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_WR_NB")
+    (INSTANCE FT601_WR_NI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601WRN (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_SIWU_NB")
+    (INSTANCE FT601_SIWU_NI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601SIWUN (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_RD_NB")
+    (INSTANCE FT601_RD_NI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601RDN (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_OE_NB")
+    (INSTANCE FT601_OE_NI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO FT601OEN (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_CLKB")
+    (INSTANCE FT601_CLKI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH FT601CLK PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge FT601CLK) (3330:3330:3330))
+      (WIDTH (negedge FT601CLK) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "FT601_TXE_NB")
+    (INSTANCE FT601_TXE_NI)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH FT601TXEN PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge FT601TXEN) (3330:3330:3330))
+      (WIDTH (negedge FT601TXEN) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "cdc_fifo_inst_async_fifo_1_2")
+    (INSTANCE cdc_fifo_inst_async_fifo_1_2I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH CLKB DOB0 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB1 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB2 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB3 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB4 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB5 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB6 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB7 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB8 (4254:4254:4254)(4254:4254:4254))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DIA8 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA7 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA6 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA5 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA4 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA3 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA2 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA1 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA0 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD CEA (posedge CLKA) (195:195:195)(19:19:19))
+      (SETUPHOLD CSA2 (posedge CLKA) (305:305:305)(-48:-48:-48))
+      (SETUPHOLD CSB2 (posedge CLKB) (164:164:164)(83:83:83))
+      (SETUPHOLD OCEB (posedge CLKB) (-90:-90:-90)(149:149:149))
+      (SETUPHOLD CEB (posedge CLKB) (187:187:187)(85:85:85))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLKA) (2739:2739:2739))
+      (WIDTH (negedge CLKA) (2739:2739:2739))
+      (WIDTH (posedge CLKB) (2739:2739:2739))
+      (WIDTH (negedge CLKB) (2739:2739:2739))
+    )
+  )
+  (CELL
+    (CELLTYPE "cdc_fifo_inst_async_fifo_2_1")
+    (INSTANCE cdc_fifo_inst_async_fifo_2_1I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH CLKB DOB0 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB1 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB2 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB3 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB4 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB5 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB6 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB7 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB8 (4254:4254:4254)(4254:4254:4254))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DIA8 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA7 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA6 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA5 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA4 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA3 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA2 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA1 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA0 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD CEA (posedge CLKA) (195:195:195)(19:19:19))
+      (SETUPHOLD CSA2 (posedge CLKA) (305:305:305)(-48:-48:-48))
+      (SETUPHOLD CSB2 (posedge CLKB) (164:164:164)(83:83:83))
+      (SETUPHOLD OCEB (posedge CLKB) (-90:-90:-90)(149:149:149))
+      (SETUPHOLD CEB (posedge CLKB) (187:187:187)(85:85:85))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLKA) (2739:2739:2739))
+      (WIDTH (negedge CLKA) (2739:2739:2739))
+      (WIDTH (posedge CLKB) (2739:2739:2739))
+      (WIDTH (negedge CLKB) (2739:2739:2739))
+    )
+  )
+  (CELL
+    (CELLTYPE "cdc_fifo_inst_async_fifo_3_0")
+    (INSTANCE cdc_fifo_inst_async_fifo_3_0I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH CLKB DOB0 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB1 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB2 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB3 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB4 (4254:4254:4254)(4254:4254:4254))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DIA4 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA3 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA2 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA1 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA0 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD CEA (posedge CLKA) (195:195:195)(19:19:19))
+      (SETUPHOLD CSA2 (posedge CLKA) (305:305:305)(-48:-48:-48))
+      (SETUPHOLD CSB2 (posedge CLKB) (164:164:164)(83:83:83))
+      (SETUPHOLD OCEB (posedge CLKB) (-90:-90:-90)(149:149:149))
+      (SETUPHOLD CEB (posedge CLKB) (187:187:187)(85:85:85))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLKA) (2739:2739:2739))
+      (WIDTH (negedge CLKA) (2739:2739:2739))
+      (WIDTH (posedge CLKB) (2739:2739:2739))
+      (WIDTH (negedge CLKB) (2739:2739:2739))
+    )
+  )
+  (CELL
+    (CELLTYPE "cdc_fifo_inst_async_fifo_0_3")
+    (INSTANCE cdc_fifo_inst_async_fifo_0_3I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH CLKA AF (912:912:912)(912:912:912))
+        (IOPATH CLKA FF (911:911:911)(911:911:911))
+        (IOPATH CLKB AE (1161:1161:1161)(1161:1161:1161))
+        (IOPATH CLKB EF (1162:1162:1162)(1162:1162:1162))
+        (IOPATH CLKB DOB0 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB1 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB2 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB3 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB4 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB5 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB6 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB7 (4254:4254:4254)(4254:4254:4254))
+        (IOPATH CLKB DOB8 (4254:4254:4254)(4254:4254:4254))
+      )
+    )
+    (TIMINGCHECK
+      (SETUPHOLD DIA8 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA7 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA6 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA5 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA4 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA3 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA2 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA1 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD DIA0 (posedge CLKA) (-41:-41:-41)(86:86:86))
+      (SETUPHOLD CEA (posedge CLKA) (195:195:195)(19:19:19))
+      (SETUPHOLD CSA2 (posedge CLKA) (305:305:305)(-48:-48:-48))
+      (SETUPHOLD CSB2 (posedge CLKB) (164:164:164)(83:83:83))
+      (SETUPHOLD OCEB (posedge CLKB) (-90:-90:-90)(149:149:149))
+      (SETUPHOLD CEB (posedge CLKB) (187:187:187)(85:85:85))
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge CLKA) (2739:2739:2739))
+      (WIDTH (negedge CLKA) (2739:2739:2739))
+      (WIDTH (posedge CLKB) (2739:2739:2739))
+      (WIDTH (negedge CLKB) (2739:2739:2739))
+    )
+  )
+  (CELL
+    (CELLTYPE "top")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+        (INTERCONNECT prng_inst_SLICE_0I/Q1 prng_inst_SLICE_0I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_0I/Q1 cdc_fifo_inst_async_fifo_0_3I/DIA6 
+          (1129:1226:1324)(1129:1226:1324))
+        (INTERCONNECT prng_inst_SLICE_0I/Q0 prng_inst_SLICE_0I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_0I/Q0 cdc_fifo_inst_async_fifo_0_3I/DIA5 
+          (897:981:1066)(897:981:1066))
+        (INTERCONNECT prng_inst_SLICE_0I/F1 prng_inst_SLICE_0I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_0I/F0 prng_inst_SLICE_0I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_0I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_0I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_1I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_1I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_2I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_2I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_3I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_3I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_4I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_4I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_5I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_5I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_6I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_6I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_7I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_7I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_8I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_8I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_9I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_9I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_10I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_11I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_11I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_12I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_12I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_13I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_13I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_14I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_14I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_15I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_15I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI prng_inst_SLICE_16I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI ft601_comp_SLICE_17I/CLK (1695:1758:1822)
+          (1695:1758:1822))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_1_2I/CLKA (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_1_2I/CLKB (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_2_1I/CLKA (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_2_1I/CLKB (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_3_0I/CLKA (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_3_0I/CLKB (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_0_3I/CLKA (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT FT601_CLKI/PADDI cdc_fifo_inst_async_fifo_0_3I/CLKB (1808:1881:1955)
+          (1808:1881:1955))
+        (INTERCONNECT prng_inst_SLICE_1I/FCO prng_inst_SLICE_0I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_0I/FCO prng_inst_SLICE_13I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_1I/Q1 prng_inst_SLICE_1I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_1I/Q1 cdc_fifo_inst_async_fifo_0_3I/DIA4 
+          (897:981:1066)(897:981:1066))
+        (INTERCONNECT prng_inst_SLICE_1I/Q0 prng_inst_SLICE_1I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_1I/Q0 cdc_fifo_inst_async_fifo_0_3I/DIA3 
+          (1037:1128:1219)(1037:1128:1219))
+        (INTERCONNECT prng_inst_SLICE_1I/F1 prng_inst_SLICE_1I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_1I/F0 prng_inst_SLICE_1I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_9I/FCO prng_inst_SLICE_1I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_2I/Q1 prng_inst_SLICE_2I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_2I/Q1 cdc_fifo_inst_async_fifo_2_1I/DIA2 
+          (1032:1127:1222)(1032:1127:1222))
+        (INTERCONNECT prng_inst_SLICE_2I/Q0 prng_inst_SLICE_2I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_2I/Q0 cdc_fifo_inst_async_fifo_2_1I/DIA1 
+          (759:837:916)(759:837:916))
+        (INTERCONNECT prng_inst_SLICE_2I/F1 prng_inst_SLICE_2I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_2I/F0 prng_inst_SLICE_2I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_5I/FCO prng_inst_SLICE_2I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_2I/FCO prng_inst_SLICE_6I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_3I/Q1 prng_inst_SLICE_3I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_3I/Q1 cdc_fifo_inst_async_fifo_1_2I/DIA5 
+          (559:617:676)(559:617:676))
+        (INTERCONNECT prng_inst_SLICE_3I/Q0 prng_inst_SLICE_3I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_3I/Q0 cdc_fifo_inst_async_fifo_1_2I/DIA4 
+          (1056:1157:1258)(1056:1157:1258))
+        (INTERCONNECT prng_inst_SLICE_3I/F1 prng_inst_SLICE_3I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_3I/F0 prng_inst_SLICE_3I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_7I/FCO prng_inst_SLICE_3I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_3I/FCO prng_inst_SLICE_14I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_4I/Q1 prng_inst_SLICE_4I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_4I/Q1 cdc_fifo_inst_async_fifo_2_1I/DIA6 
+          (1037:1128:1219)(1037:1128:1219))
+        (INTERCONNECT prng_inst_SLICE_4I/Q0 prng_inst_SLICE_4I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_4I/Q0 cdc_fifo_inst_async_fifo_2_1I/DIA5 
+          (1032:1127:1222)(1032:1127:1222))
+        (INTERCONNECT prng_inst_SLICE_4I/F1 prng_inst_SLICE_4I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_4I/F0 prng_inst_SLICE_4I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_6I/FCO prng_inst_SLICE_4I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_4I/FCO prng_inst_SLICE_15I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_5I/Q1 prng_inst_SLICE_5I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_5I/Q1 cdc_fifo_inst_async_fifo_2_1I/DIA0 
+          (897:981:1066)(897:981:1066))
+        (INTERCONNECT prng_inst_SLICE_5I/Q0 prng_inst_SLICE_5I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_5I/Q0 cdc_fifo_inst_async_fifo_1_2I/DIA8 
+          (1037:1128:1219)(1037:1128:1219))
+        (INTERCONNECT prng_inst_SLICE_5I/F1 prng_inst_SLICE_5I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_5I/F0 prng_inst_SLICE_5I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_14I/FCO prng_inst_SLICE_5I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_6I/Q1 prng_inst_SLICE_6I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_6I/Q1 cdc_fifo_inst_async_fifo_2_1I/DIA4 
+          (1037:1128:1219)(1037:1128:1219))
+        (INTERCONNECT prng_inst_SLICE_6I/Q0 prng_inst_SLICE_6I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_6I/Q0 cdc_fifo_inst_async_fifo_2_1I/DIA3 
+          (897:981:1066)(897:981:1066))
+        (INTERCONNECT prng_inst_SLICE_6I/F1 prng_inst_SLICE_6I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_6I/F0 prng_inst_SLICE_6I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_7I/Q1 prng_inst_SLICE_7I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_7I/Q1 cdc_fifo_inst_async_fifo_1_2I/DIA3 
+          (832:907:982)(832:907:982))
+        (INTERCONNECT prng_inst_SLICE_7I/Q0 prng_inst_SLICE_7I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_7I/Q0 cdc_fifo_inst_async_fifo_1_2I/DIA2 
+          (759:837:916)(759:837:916))
+        (INTERCONNECT prng_inst_SLICE_7I/F1 prng_inst_SLICE_7I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_7I/F0 prng_inst_SLICE_7I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_8I/FCO prng_inst_SLICE_7I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_8I/Q1 prng_inst_SLICE_8I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_8I/Q1 cdc_fifo_inst_async_fifo_1_2I/DIA1 
+          (897:981:1066)(897:981:1066))
+        (INTERCONNECT prng_inst_SLICE_8I/Q0 prng_inst_SLICE_8I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_8I/Q0 cdc_fifo_inst_async_fifo_1_2I/DIA0 
+          (542:596:651)(542:596:651))
+        (INTERCONNECT prng_inst_SLICE_8I/F1 prng_inst_SLICE_8I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_8I/F0 prng_inst_SLICE_8I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_13I/FCO prng_inst_SLICE_8I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_9I/Q1 prng_inst_SLICE_9I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_9I/Q1 cdc_fifo_inst_async_fifo_0_3I/DIA2 
+          (1129:1233:1338)(1129:1233:1338))
+        (INTERCONNECT prng_inst_SLICE_9I/Q0 prng_inst_SLICE_9I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_9I/Q0 cdc_fifo_inst_async_fifo_0_3I/DIA1 
+          (932:1018:1105)(932:1018:1105))
+        (INTERCONNECT prng_inst_SLICE_9I/F1 prng_inst_SLICE_9I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_9I/F0 prng_inst_SLICE_9I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_16I/FCO prng_inst_SLICE_9I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_10I/Q0 prng_inst_SLICE_10I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_10I/Q0 cdc_fifo_inst_async_fifo_3_0I/DIA4 
+          (1078:1186:1295)(1078:1186:1295))
+        (INTERCONNECT prng_inst_SLICE_10I/F0 prng_inst_SLICE_10I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_11I/FCO prng_inst_SLICE_10I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_11I/Q1 prng_inst_SLICE_11I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_11I/Q1 cdc_fifo_inst_async_fifo_3_0I/DIA3 
+          (1224:1333:1442)(1224:1333:1442))
+        (INTERCONNECT prng_inst_SLICE_11I/Q0 prng_inst_SLICE_11I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_11I/Q0 cdc_fifo_inst_async_fifo_3_0I/DIA2 
+          (1205:1308:1411)(1205:1308:1411))
+        (INTERCONNECT prng_inst_SLICE_11I/F1 prng_inst_SLICE_11I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_11I/F0 prng_inst_SLICE_11I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_12I/FCO prng_inst_SLICE_11I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_12I/Q1 prng_inst_SLICE_12I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_12I/Q1 cdc_fifo_inst_async_fifo_3_0I/DIA1 
+          (1129:1233:1338)(1129:1233:1338))
+        (INTERCONNECT prng_inst_SLICE_12I/Q0 prng_inst_SLICE_12I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_12I/Q0 cdc_fifo_inst_async_fifo_3_0I/DIA0 
+          (1229:1338:1447)(1229:1338:1447))
+        (INTERCONNECT prng_inst_SLICE_12I/F1 prng_inst_SLICE_12I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_12I/F0 prng_inst_SLICE_12I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_15I/FCO prng_inst_SLICE_12I/FCI (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_13I/Q1 prng_inst_SLICE_13I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_13I/Q1 cdc_fifo_inst_async_fifo_0_3I/DIA8 
+          (1129:1233:1338)(1129:1233:1338))
+        (INTERCONNECT prng_inst_SLICE_13I/Q0 prng_inst_SLICE_13I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_13I/Q0 cdc_fifo_inst_async_fifo_0_3I/DIA7 
+          (1205:1308:1411)(1205:1308:1411))
+        (INTERCONNECT prng_inst_SLICE_13I/F1 prng_inst_SLICE_13I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_13I/F0 prng_inst_SLICE_13I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_14I/Q1 prng_inst_SLICE_14I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_14I/Q1 cdc_fifo_inst_async_fifo_1_2I/DIA7 
+          (1032:1127:1222)(1032:1127:1222))
+        (INTERCONNECT prng_inst_SLICE_14I/Q0 prng_inst_SLICE_14I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_14I/Q0 cdc_fifo_inst_async_fifo_1_2I/DIA6 
+          (759:837:916)(759:837:916))
+        (INTERCONNECT prng_inst_SLICE_14I/F1 prng_inst_SLICE_14I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_14I/F0 prng_inst_SLICE_14I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_15I/Q1 prng_inst_SLICE_15I/A1 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_15I/Q1 cdc_fifo_inst_async_fifo_2_1I/DIA8 
+          (1129:1226:1324)(1129:1226:1324))
+        (INTERCONNECT prng_inst_SLICE_15I/Q0 prng_inst_SLICE_15I/A0 (375:451:528)
+          (375:451:528))
+        (INTERCONNECT prng_inst_SLICE_15I/Q0 cdc_fifo_inst_async_fifo_2_1I/DIA7 
+          (764:838:913)(764:838:913))
+        (INTERCONNECT prng_inst_SLICE_15I/F1 prng_inst_SLICE_15I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_15I/F0 prng_inst_SLICE_15I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT prng_inst_SLICE_16I/Q1 prng_inst_SLICE_16I/B1 (598:694:791)
+          (598:694:791))
+        (INTERCONNECT prng_inst_SLICE_16I/Q1 cdc_fifo_inst_async_fifo_0_3I/DIA0 
+          (764:838:913)(764:838:913))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/AF prng_inst_SLICE_16I/A1 
+          (1153:1296:1440)(1153:1296:1440))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/AF cdc_fifo_inst_async_fifo_1_2I/CEA 
+          (931:1019:1107)(931:1019:1107))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/AF cdc_fifo_inst_async_fifo_2_1I/CEA 
+          (1530:1663:1797)(1530:1663:1797))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/AF cdc_fifo_inst_async_fifo_3_0I/CEA 
+          (1827:1983:2139)(1827:1983:2139))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/AF cdc_fifo_inst_async_fifo_0_3I/CEA 
+          (701:771:841)(701:771:841))
+        (INTERCONNECT prng_inst_SLICE_16I/F1 prng_inst_SLICE_16I/DI1 (0:0:0)(0:0:0))
+        (INTERCONNECT FT601_TXE_NI/PADDI ft601_comp_SLICE_17I/C1 (2558:2793:3029)
+          (2558:2793:3029))
+        (INTERCONNECT FT601_TXE_NI/PADDI ft601_comp_SLICE_17I/B0 (2481:2699:2918)
+          (2481:2699:2918))
+        (INTERCONNECT ft601_comp_SLICE_17I/Q0 ft601_comp_SLICE_17I/B1 (600:698:796)
+          (600:698:796))
+        (INTERCONNECT ft601_comp_SLICE_17I/Q0 ft601_comp_SLICE_17I/A0 (377:455:533)
+          (377:455:533))
+        (INTERCONNECT ft601_comp_SLICE_17I/Q0 LEDI/PADDO (1544:1724:1905)(1544:1724:1905))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/EF ft601_comp_SLICE_17I/A1 
+          (935:1062:1189)(935:1062:1189))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/EF cdc_fifo_inst_async_fifo_1_2I/CSB2 
+          (987:1070:1153)(987:1070:1153))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/EF cdc_fifo_inst_async_fifo_2_1I/CSB2 
+          (1581:1709:1837)(1581:1709:1837))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/EF cdc_fifo_inst_async_fifo_3_0I/CSB2 
+          (1596:1737:1879)(1596:1737:1879))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/EF cdc_fifo_inst_async_fifo_0_3I/CSB2 
+          (954:1030:1106)(954:1030:1106))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/AE ft601_comp_SLICE_17I/D0 
+          (764:836:909)(764:836:909))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 ft601_comp_SLICE_17I/C0 (213:296:380)
+          (213:296:380))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 SLICE_18I/C0 (1390:1572:1754)
+          (1390:1572:1754))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_1_2I/CEB 
+          (1295:1418:1542)(1295:1418:1542))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_1_2I/OCEB 
+          (1592:1738:1884)(1592:1738:1884))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_2_1I/CEB 
+          (1299:1423:1547)(1299:1423:1547))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_2_1I/OCEB 
+          (1596:1742:1889)(1596:1742:1889))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_3_0I/CEB 
+          (1633:1776:1920)(1633:1776:1920))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_3_0I/OCEB 
+          (1596:1742:1889)(1596:1742:1889))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_0_3I/CEB 
+          (910:1000:1090)(910:1000:1090))
+        (INTERCONNECT ft601_comp_SLICE_17I/F1 cdc_fifo_inst_async_fifo_0_3I/OCEB 
+          (1110:1220:1330)(1110:1220:1330))
+        (INTERCONNECT ft601_comp_SLICE_17I/F0 ft601_comp_SLICE_17I/DI0 (0:0:0)(0:0:0))
+        (INTERCONNECT SLICE_18I/F0 FT601_WR_NI/PADDO (530:580:630)(530:580:630))
+        (INTERCONNECT SLICE_18I/F1 FT601_RST_NI/PADDO (1188:1354:1520)(1188:1354:1520))
+        (INTERCONNECT SLICE_18I/F1 FT601_BE_3_I/PADDO (893:986:1079)(893:986:1079))
+        (INTERCONNECT SLICE_18I/F1 FT601_BE_2_I/PADDO (893:986:1079)(893:986:1079))
+        (INTERCONNECT SLICE_18I/F1 FT601_BE_1_I/PADDO (1165:1290:1415)(1165:1290:1415))
+        (INTERCONNECT SLICE_18I/F1 FT601_BE_0_I/PADDO (1165:1290:1415)(1165:1290:1415))
+        (INTERCONNECT SLICE_18I/F1 FT601_SIWU_NI/PADDO (757:832:907)(757:832:907))
+        (INTERCONNECT SLICE_18I/F1 FT601_RD_NI/PADDO (1490:1679:1868)(1490:1679:1868))
+        (INTERCONNECT SLICE_18I/F1 FT601_OE_NI/PADDO (1490:1679:1868)(1490:1679:1868))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB0 FT601_DATA_17_I/PADDO 
+          (1372:1497:1622)(1372:1497:1622))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB1 FT601_DATA_18_I/PADDO 
+          (1448:1571:1695)(1448:1571:1695))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB2 FT601_DATA_19_I/PADDO 
+          (1372:1497:1622)(1372:1497:1622))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB3 FT601_DATA_20_I/PADDO 
+          (1851:2006:2162)(1851:2006:2162))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB4 FT601_DATA_21_I/PADDO 
+          (1372:1497:1622)(1372:1497:1622))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB5 FT601_DATA_22_I/PADDO 
+          (1921:2080:2240)(1921:2080:2240))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB6 FT601_DATA_23_I/PADDO 
+          (2112:2284:2457)(2112:2284:2457))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB0 FT601_DATA_24_I/PADDO 
+          (1791:1935:2079)(1791:1935:2079))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB1 FT601_DATA_25_I/PADDO 
+          (1715:1860:2006)(1715:1860:2006))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB2 FT601_DATA_26_I/PADDO 
+          (2258:2496:2735)(2258:2496:2735))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB3 FT601_DATA_27_I/PADDO 
+          (2258:2496:2735)(2258:2496:2735))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB8 FT601_DATA_16_I/PADDO 
+          (1578:1717:1856)(1578:1717:1856))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB4 FT601_DATA_28_I/PADDO 
+          (2272:2466:2661)(2272:2466:2661))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB5 FT601_DATA_29_I/PADDO 
+          (2325:2517:2710)(2325:2517:2710))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB6 FT601_DATA_30_I/PADDO 
+          (2569:2786:3003)(2569:2786:3003))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/DOB7 FT601_DATA_31_I/PADDO 
+          (2248:2458:2668)(2248:2458:2668))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB5 FT601_DATA_15_I/PADDO 
+          (1630:1798:1966)(1630:1798:1966))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB4 FT601_DATA_14_I/PADDO 
+          (1630:1798:1966)(1630:1798:1966))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB3 FT601_DATA_13_I/PADDO 
+          (1613:1775:1937)(1613:1775:1937))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB2 FT601_DATA_12_I/PADDO 
+          (1227:1373:1520)(1227:1373:1520))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB1 FT601_DATA_11_I/PADDO 
+          (1397:1512:1628)(1397:1512:1628))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB0 FT601_DATA_10_I/PADDO 
+          (1573:1711:1849)(1573:1711:1849))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB8 FT601_DATA_9_I/PADDO 
+          (1321:1438:1555)(1321:1438:1555))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_1_2I/DOB7 FT601_DATA_8_I/PADDO 
+          (1220:1336:1453)(1220:1336:1453))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_3_0I/DOB4 FT601_DATA_7_I/PADDO 
+          (1179:1278:1377)(1179:1278:1377))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_3_0I/DOB3 FT601_DATA_6_I/PADDO 
+          (1176:1331:1487)(1176:1331:1487))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_3_0I/DOB2 FT601_DATA_5_I/PADDO 
+          (1269:1434:1600)(1269:1434:1600))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_3_0I/DOB1 FT601_DATA_4_I/PADDO 
+          (1193:1360:1527)(1193:1360:1527))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_3_0I/DOB0 FT601_DATA_3_I/PADDO 
+          (1546:1720:1895)(1546:1720:1895))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB8 FT601_DATA_2_I/PADDO 
+          (1612:1798:1984)(1612:1798:1984))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB7 FT601_DATA_1_I/PADDO 
+          (1612:1798:1984)(1612:1798:1984))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_2_1I/DOB6 FT601_DATA_0_I/PADDO 
+          (1612:1798:1984)(1612:1798:1984))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/FF cdc_fifo_inst_async_fifo_1_2I/CSA2 
+          (1194:1309:1425)(1194:1309:1425))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/FF cdc_fifo_inst_async_fifo_2_1I/CSA2 
+          (1199:1315:1431)(1199:1315:1431))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/FF cdc_fifo_inst_async_fifo_3_0I/CSA2 
+          (1496:1634:1773)(1496:1634:1773))
+        (INTERCONNECT cdc_fifo_inst_async_fifo_0_3I/FF cdc_fifo_inst_async_fifo_0_3I/CSA2 
+          (651:712:774)(651:712:774))
+      )
+    )
+  )
+)

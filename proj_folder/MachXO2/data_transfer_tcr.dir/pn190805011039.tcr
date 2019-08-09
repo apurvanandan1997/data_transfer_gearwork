@@ -1,0 +1,23 @@
+#Start recording tcl command: 8/4/2019 22:21:21
+#Project Location: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2; Project name: data_transfer
+prj_project open "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/data_transfer.ldf"
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen -forceAll
+prj_run Export -impl impl1 -task Bitgen -forceAll
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+prj_src syn_sim -src "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/prng_recv.vhd" SynthesisAndSimulate
+prj_run Export -impl impl1 -task Bitgen
+prj_run PAR -impl impl1 -task IOTiming
+prj_run Export -impl impl1 -task Bitgen -forceAll
+prj_run Export -impl impl1 -task Bitgen
+prj_project save
+prj_project close
+#Stop recording: 8/5/2019 01:10:39

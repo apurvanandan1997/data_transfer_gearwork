@@ -1,0 +1,27 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 251 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 87 clock pin(s) of sequential element(s)
+0 instances converted, 87 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@K:CKID0004       FT601_CLK           port                   251        ft601_comp.ft601_oe
+===========================================================================================
+============================================================================================================================== Gated/Generated Clocks ===============================================================================================================================
+Clock Tree ID     Driving Element                         Drive Element Type     Fanout     Sample Instance                                            Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       deser_inst.ddrx4_inst.Inst7_CLKDIVC     CLKDIVC                68         deser_inst.bit_slip                                        Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       oscinst0                                OSCH                   18         deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT2_REG_Z140     No gated clock conversion method for cell cell:LUCENT.FD1S3DX                                                                 
+@K:CKID0003       cdc_fifo_inst.async_fifo_0_1            fifo8kb                1          fifo_rd_en                                                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=====================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

@@ -1,0 +1,337 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Fri Aug  9 09:41:00 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     top
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk1 [get_nets clk_int]
+            543 items scored, 13 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \prng_inst/sr_i31_33__i0  (from clk_int +)
+   Destination:    FD1S3AX    D              \prng_inst/sr_i31_33__i31  (to clk_int +)
+
+   Delay:                   5.314ns  (65.8% logic, 34.2% route), 18 logic levels.
+
+ Constraint Details:
+
+      5.314ns data_path \prng_inst/sr_i31_33__i0 to \prng_inst/sr_i31_33__i31 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 0.447ns
+
+ Path Details: \prng_inst/sr_i31_33__i0 to \prng_inst/sr_i31_33__i31
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \prng_inst/sr_i31_33__i0 (from clk_int)
+Route         2   e 0.838                                  send_data[0]
+A1_TO_FCO   ---     0.684           A[2] to COUT           \prng_inst/sr_i31_33_add_4_1
+Route         1   e 0.020                                  \prng_inst/n456
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_3
+Route         1   e 0.020                                  \prng_inst/n457
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_5
+Route         1   e 0.020                                  \prng_inst/n458
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_7
+Route         1   e 0.020                                  \prng_inst/n459
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_9
+Route         1   e 0.020                                  \prng_inst/n460
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_11
+Route         1   e 0.020                                  \prng_inst/n461
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_13
+Route         1   e 0.020                                  \prng_inst/n462
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_15
+Route         1   e 0.020                                  \prng_inst/n463
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_17
+Route         1   e 0.020                                  \prng_inst/n464
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_19
+Route         1   e 0.020                                  \prng_inst/n465
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_21
+Route         1   e 0.020                                  \prng_inst/n466
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_23
+Route         1   e 0.020                                  \prng_inst/n467
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_25
+Route         1   e 0.020                                  \prng_inst/n468
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_27
+Route         1   e 0.020                                  \prng_inst/n469
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_29
+Route         1   e 0.020                                  \prng_inst/n470
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_31
+Route         1   e 0.020                                  \prng_inst/n471
+FCI_TO_F    ---     0.495            CIN to S[2]           \prng_inst/sr_i31_33_add_4_33
+Route         1   e 0.660                                  \prng_inst/n134
+                  --------
+                    5.314  (65.8% logic, 34.2% route), 18 logic levels.
+
+
+Error:  The following path violates requirements by 0.297ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \prng_inst/sr_i31_33__i2  (from clk_int +)
+   Destination:    FD1S3AX    D              \prng_inst/sr_i31_33__i31  (to clk_int +)
+
+   Delay:                   5.164ns  (65.2% logic, 34.8% route), 17 logic levels.
+
+ Constraint Details:
+
+      5.164ns data_path \prng_inst/sr_i31_33__i2 to \prng_inst/sr_i31_33__i31 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 0.297ns
+
+ Path Details: \prng_inst/sr_i31_33__i2 to \prng_inst/sr_i31_33__i31
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \prng_inst/sr_i31_33__i2 (from clk_int)
+Route         2   e 0.838                                  send_data[2]
+A1_TO_FCO   ---     0.684           A[2] to COUT           \prng_inst/sr_i31_33_add_4_3
+Route         1   e 0.020                                  \prng_inst/n457
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_5
+Route         1   e 0.020                                  \prng_inst/n458
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_7
+Route         1   e 0.020                                  \prng_inst/n459
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_9
+Route         1   e 0.020                                  \prng_inst/n460
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_11
+Route         1   e 0.020                                  \prng_inst/n461
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_13
+Route         1   e 0.020                                  \prng_inst/n462
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_15
+Route         1   e 0.020                                  \prng_inst/n463
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_17
+Route         1   e 0.020                                  \prng_inst/n464
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_19
+Route         1   e 0.020                                  \prng_inst/n465
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_21
+Route         1   e 0.020                                  \prng_inst/n466
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_23
+Route         1   e 0.020                                  \prng_inst/n467
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_25
+Route         1   e 0.020                                  \prng_inst/n468
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_27
+Route         1   e 0.020                                  \prng_inst/n469
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_29
+Route         1   e 0.020                                  \prng_inst/n470
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_31
+Route         1   e 0.020                                  \prng_inst/n471
+FCI_TO_F    ---     0.495            CIN to S[2]           \prng_inst/sr_i31_33_add_4_33
+Route         1   e 0.660                                  \prng_inst/n134
+                  --------
+                    5.164  (65.2% logic, 34.8% route), 17 logic levels.
+
+
+Error:  The following path violates requirements by 0.297ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \prng_inst/sr_i31_33__i1  (from clk_int +)
+   Destination:    FD1S3AX    D              \prng_inst/sr_i31_33__i31  (to clk_int +)
+
+   Delay:                   5.164ns  (65.2% logic, 34.8% route), 17 logic levels.
+
+ Constraint Details:
+
+      5.164ns data_path \prng_inst/sr_i31_33__i1 to \prng_inst/sr_i31_33__i31 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 0.297ns
+
+ Path Details: \prng_inst/sr_i31_33__i1 to \prng_inst/sr_i31_33__i31
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \prng_inst/sr_i31_33__i1 (from clk_int)
+Route         2   e 0.838                                  send_data[1]
+A1_TO_FCO   ---     0.684           A[2] to COUT           \prng_inst/sr_i31_33_add_4_3
+Route         1   e 0.020                                  \prng_inst/n457
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_5
+Route         1   e 0.020                                  \prng_inst/n458
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_7
+Route         1   e 0.020                                  \prng_inst/n459
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_9
+Route         1   e 0.020                                  \prng_inst/n460
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_11
+Route         1   e 0.020                                  \prng_inst/n461
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_13
+Route         1   e 0.020                                  \prng_inst/n462
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_15
+Route         1   e 0.020                                  \prng_inst/n463
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_17
+Route         1   e 0.020                                  \prng_inst/n464
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_19
+Route         1   e 0.020                                  \prng_inst/n465
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_21
+Route         1   e 0.020                                  \prng_inst/n466
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_23
+Route         1   e 0.020                                  \prng_inst/n467
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_25
+Route         1   e 0.020                                  \prng_inst/n468
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_27
+Route         1   e 0.020                                  \prng_inst/n469
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_29
+Route         1   e 0.020                                  \prng_inst/n470
+FCI_TO_FCO  ---     0.130            CIN to COUT           \prng_inst/sr_i31_33_add_4_31
+Route         1   e 0.020                                  \prng_inst/n471
+FCI_TO_F    ---     0.495            CIN to S[2]           \prng_inst/sr_i31_33_add_4_33
+Route         1   e 0.660                                  \prng_inst/n134
+                  --------
+                    5.164  (65.2% logic, 34.8% route), 17 logic levels.
+
+Warning: 5.447 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets FT601_CLK_c]
+            2 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 0.834ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \ft601_comp/tx_active_24  (from FT601_CLK_c +)
+   Destination:    FD1S3AX    D              \ft601_comp/tx_active_24  (to FT601_CLK_c +)
+
+   Delay:                   4.033ns  (29.3% logic, 70.7% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.033ns data_path \ft601_comp/tx_active_24 to \ft601_comp/tx_active_24 meets
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 0.834ns
+
+ Path Details: \ft601_comp/tx_active_24 to \ft601_comp/tx_active_24
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \ft601_comp/tx_active_24 (from FT601_CLK_c)
+Route         3   e 0.919                                  LED_c
+LUT4        ---     0.408              C to Z              \ft601_comp/i1_2_lut_3_lut
+Route        18   e 1.271                                  tx_active_N_388
+LUT4        ---     0.408              D to Z              \ft601_comp/tx_active_I_77_3_lut_4_lut
+Route         1   e 0.660                                  \ft601_comp/tx_active_N_387
+                  --------
+                    4.033  (29.3% logic, 70.7% route), 3 logic levels.
+
+
+Passed:  The following path meets requirements by 2.513ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \ft601_comp/tx_active_24  (from FT601_CLK_c +)
+   Destination:    FD1S3AX    D              \ft601_comp/tx_active_24  (to FT601_CLK_c +)
+
+   Delay:                   2.354ns  (32.9% logic, 67.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      2.354ns data_path \ft601_comp/tx_active_24 to \ft601_comp/tx_active_24 meets
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 2.513ns
+
+ Path Details: \ft601_comp/tx_active_24 to \ft601_comp/tx_active_24
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \ft601_comp/tx_active_24 (from FT601_CLK_c)
+Route         3   e 0.919                                  LED_c
+LUT4        ---     0.408              C to Z              \ft601_comp/tx_active_I_77_3_lut_4_lut
+Route         1   e 0.660                                  \ft601_comp/tx_active_N_387
+                  --------
+                    2.354  (32.9% logic, 67.1% route), 2 logic levels.
+
+Report: 4.166 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets clk_int]                 |     5.000 ns|     5.447 ns|    18 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets FT601_CLK_c]             |     5.000 ns|     4.166 ns|     3  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\prng_inst/n458                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n459                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n460                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n461                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n462                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n463                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n464                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n465                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n466                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n467                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n468                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n469                         |       1|      13|     99.00%
+                                        |        |        |
+\prng_inst/n457                         |       1|      11|     84.62%
+                                        |        |        |
+\prng_inst/n470                         |       1|      11|     84.62%
+                                        |        |        |
+\prng_inst/n134                         |       1|       5|     38.46%
+                                        |        |        |
+\prng_inst/n456                         |       1|       5|     38.46%
+                                        |        |        |
+\prng_inst/n471                         |       1|       5|     38.46%
+                                        |        |        |
+send_data[0]                            |       2|       5|     38.46%
+                                        |        |        |
+\prng_inst/n135                         |       1|       3|     23.08%
+                                        |        |        |
+\prng_inst/n136                         |       1|       3|     23.08%
+                                        |        |        |
+send_data[1]                            |       2|       3|     23.08%
+                                        |        |        |
+send_data[2]                            |       2|       3|     23.08%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 13  Score: 2811
+
+Constraints cover  545 paths, 85 nets, and 117 connections (49.6% coverage)
+
+
+Peak memory: 219144192 bytes, TRCE: 421888 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

@@ -1,0 +1,110 @@
+# Sun Aug  4 17:54:04 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 09:36:35
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/impl1_scck.rpt 
+Printing clock  summary report in "/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd":198:4:198:20|Removing sequential instance RX_RESET_REG_Z124 (in view: work.rx_sync(rtl)) of type view:LUCENT.FD1S3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":253:4:253:17|Removing instance Inst8_IDDRX4B1 (in view: work.ddrx4(structure)) of black box view:work.IDDRX4B(syn_black_box) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":236:4:236:17|Removing instance Inst8_IDDRX4B2 (in view: work.ddrx4(structure)) of black box view:work.IDDRX4B(syn_black_box) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":219:4:219:17|Removing instance Inst8_IDDRX4B3 (in view: work.ddrx4(structure)) of black box view:work.IDDRX4B(syn_black_box) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":202:4:202:17|Removing instance Inst8_IDDRX4B4 (in view: work.ddrx4(structure)) of black box view:work.IDDRX4B(syn_black_box) because it does not drive other instances.
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":98:8:98:9|Removing sequential instance data_out[31:0] (in view: work.ft601(rtl)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":98:8:98:9|Removing sequential instance dat_out_rdy (in view: work.ft601(rtl)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":370:4:370:16|Removing instance udel_dataini1 (in view: work.ddrx4(structure)) of black box view:work.DELAYE(syn_black_box) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":360:4:360:16|Removing instance udel_dataini2 (in view: work.ddrx4(structure)) of black box view:work.DELAYE(syn_black_box) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":350:4:350:16|Removing instance udel_dataini3 (in view: work.ddrx4(structure)) of black box view:work.DELAYE(syn_black_box) because it does not drive other instances.
+@W: BN114 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":340:4:340:16|Removing instance udel_dataini4 (in view: work.ddrx4(structure)) of black box view:work.DELAYE(syn_black_box) because it does not drive other instances.
+@N: BN362 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":87:8:87:9|Removing sequential instance i_dat_o_buf[31:0] (in view: work.ft601(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=8  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                        Clock                     Clock
+Level     Clock                            Frequency     Period        Type                                         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                           724.0 MHz     1.381         system                                       system_clkgroup           1    
+                                                                                                                                                   
+0 -       top|FT601_CLK                    363.1 MHz     2.754         inferred                                     Autoconstr_clkgroup_1     252  
+                                                                                                                                                   
+0 -       ddrx4|sclk_inferred_clock        4.1 MHz       244.057       inferred                                     Autoconstr_clkgroup_0     57   
+1 .         dec_8b10b|ko_derived_clock     4.1 MHz       244.057       derived (from ddrx4|sclk_inferred_clock)     Autoconstr_clkgroup_0     1    
+                                                                                                                                                   
+0 -       top|clk_int_inferred_clock       2.1 MHz       480.769       inferred                                     Autoconstr_clkgroup_2     18   
+===================================================================================================================================================
+
+@W: MT531 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":159:4:159:13|Found signal identified as System clock which controls 1 sequential elements including fifo_rd_en.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":179:8:179:9|Found inferred clock ddrx4|sclk_inferred_clock which controls 57 sequential elements including deser_inst.lnk_trnd_buf[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":68:38:68:40|Found inferred clock top|FT601_CLK which controls 252 sequential elements including ft601_comp.ft601_txe. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/rx_sync.vhd":118:4:118:20|Found inferred clock top|clk_int_inferred_clock which controls 18 sequential elements including deser_inst.ddrx4_inst.Inst5_rx_sync.UDDCNTLN_REG_Z104. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+Encoding state machine i_state[0:5] (in view: work.ft601(rtl))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine i_pre_valid[0:3] (in view: work.ft601(rtl))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   011 -> 10
+   111 -> 11
+@N: MO225 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|There are no possible illegal states for state machine i_pre_valid[0:3] (in view: work.ft601(rtl)); safe FSM implementation is not required.
+Encoding state machine i_tx_state[0:4] (in view: work.ft601(rtl))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   101 -> 101
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Aug  4 17:54:05 2019
+
+###########################################################]

@@ -1,0 +1,16 @@
+@W: CD276 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":48:8:48:15|Map for port data_out of component ft601 not found
+@W: CD276 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":49:8:49:18|Map for port dat_out_rdy of component ft601 not found
+@W: CD730 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Component declaration has 15 ports but entity declares 17 ports
+@W: CD326 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Port dat_out_rdy of entity work.ft601 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Port data_out of entity work.ft601 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":213:4:213:13|Port led of entity work.ft601 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":123:11:123:17|Signal fifo_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":124:11:124:21|Signal fifo_wr_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":125:11:125:21|Signal fifo_rd_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":138:11:138:14|Signal eclk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":143:11:143:13|Signal ber is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/top.vhd":144:11:144:15|Signal debug is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL249 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":98:8:98:9|Initial value is not supported on state machine i_state
+@W: CL249 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|Initial value is not supported on state machine i_pre_valid
+@W: CL249 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|Initial value is not supported on state machine i_tx_state
+

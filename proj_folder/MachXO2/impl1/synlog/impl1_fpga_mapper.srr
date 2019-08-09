@@ -1,0 +1,1114 @@
+# Sun Aug  4 17:54:05 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 09:36:35
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "0000" on instance deser_inst.lnk_trnd_buf[3:0].
+@N: FX493 |Applying initial value "00000000" on instance deser_inst.q_tmp[7:0].
+@N: FX493 |Applying initial value "0000000000" on instance deser_inst.q10_buf[9:0].
+@N: FX493 |Applying initial value "000" on instance ft601_comp.i_valid[2:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Encoding state machine i_state[0:5] (in view: work.ft601(rtl))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine i_pre_valid[0:3] (in view: work.ft601(rtl))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   011 -> 10
+   111 -> 11
+@N: MO225 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|There are no possible illegal states for state machine i_pre_valid[0:3] (in view: work.ft601(rtl)); safe FSM implementation is not required.
+Encoding state machine i_tx_state[0:4] (in view: work.ft601(rtl))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   101 -> 101
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 150MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 150MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 150MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 150MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 150MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 150MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 150MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 150MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 153MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.94ns		 514 /       307
+   2		0h:00m:01s		    -2.94ns		 513 /       307
+   3		0h:00m:01s		    -2.94ns		 513 /       307
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":97:8:97:9|Replicating instance deser_inst.q[4] (in view: work.top(rtl_top)) with 18 loads 2 times to improve timing.
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":97:8:97:9|Replicating instance deser_inst.q[2] (in view: work.top(rtl_top)) with 14 loads 2 times to improve timing.
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":97:8:97:9|Replicating instance deser_inst.q[1] (in view: work.top(rtl_top)) with 11 loads 2 times to improve timing.
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":97:8:97:9|Replicating instance deser_inst.q[0] (in view: work.top(rtl_top)) with 10 loads 1 time to improve timing.
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":97:8:97:9|Replicating instance deser_inst.q[3] (in view: work.top(rtl_top)) with 10 loads 1 time to improve timing.
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":97:8:97:9|Replicating instance deser_inst.q[8] (in view: work.top(rtl_top)) with 18 loads 2 times to improve timing.
+Timing driven replication report
+Added 10 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   4		0h:00m:02s		    -1.70ns		 524 /       317
+   5		0h:00m:02s		    -1.37ns		 532 /       317
+   6		0h:00m:02s		    -1.68ns		 536 /       317
+   7		0h:00m:02s		    -1.68ns		 539 /       317
+   8		0h:00m:02s		    -1.28ns		 541 /       317
+   9		0h:00m:02s		    -1.69ns		 543 /       317
+  10		0h:00m:02s		    -1.69ns		 543 /       317
+  11		0h:00m:02s		    -1.69ns		 543 /       317
+  12		0h:00m:02s		    -1.69ns		 543 /       317
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/deserializer.vhd":97:8:97:9|Replicating instance deser_inst.q_0_sqmuxa_i (in view: work.top(rtl_top)) with 20 loads 1 time to improve timing.
+@N: FX271 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ft601.vhd":158:8:158:9|Replicating instance ft601_comp.i_tx_state[1] (in view: work.top(rtl_top)) with 153 loads 3 times to improve timing.
+Added 3 Registers via timing driven replication
+Added 4 LUTs via timing driven replication
+
+
+  13		0h:00m:02s		    -1.26ns		 544 /       320
+  14		0h:00m:02s		    -1.75ns		 548 /       320
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 153MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 154MB)
+
+@N: MT611 :|Automatically generated clock dec_8b10b|ko_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 251 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 87 clock pin(s) of sequential element(s)
+0 instances converted, 87 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@K:CKID0004       FT601_CLK           port                   251        ft601_comp.ft601_oe
+===========================================================================================
+============================================================================================================================== Gated/Generated Clocks ===============================================================================================================================
+Clock Tree ID     Driving Element                         Drive Element Type     Fanout     Sample Instance                                            Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       deser_inst.ddrx4_inst.Inst7_CLKDIVC     CLKDIVC                68         deser_inst.bit_slip                                        Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       oscinst0                                OSCH                   18         deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT2_REG_Z140     No gated clock conversion method for cell cell:LUCENT.FD1S3DX                                                                 
+@K:CKID0003       cdc_fifo_inst.async_fifo_0_1            fifo8kb                1          fifo_rd_en                                                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=====================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 118MB peak: 154MB)
+
+Writing Analyst data base /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/synwork/impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 151MB peak: 154MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: /home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/proj_folder/MachXO2/impl1/impl1.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 157MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 157MB)
+
+@W: MT246 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/async_fifo.vhd":215:4:215:17|Blackbox fifo8kb is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":380:4:380:16|Blackbox DELAYE is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":325:4:325:16|Blackbox DQSDLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":318:4:318:16|Blackbox DLLDELC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":298:4:298:18|Blackbox ECLKSYNCA is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":287:4:287:16|Blackbox CLKDIVC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"/home/apurvan/GSoC/usb-plug-mod-working/data_transfer_gearwork/src/MachXO2/ddrx4.vhd":270:4:270:17|Blackbox IDDRX4B is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock top|FT601_CLK with period 4.61ns. Please declare a user-defined clock on object "p:FT601_CLK"
+@W: MT420 |Found inferred clock top|clk_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:clk_int"
+@W: MT420 |Found inferred clock ddrx4|sclk_inferred_clock with period 5.40ns. Please declare a user-defined clock on object "n:deser_inst.ddrx4_inst.sclk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Aug  4 17:54:09 2019
+#
+
+
+Top view:               top
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.313
+
+                               Requested     Estimated     Requested     Estimated                 Clock        Clock                
+Starting Clock                 Frequency     Frequency     Period        Period        Slack       Type         Group                
+-------------------------------------------------------------------------------------------------------------------------------------
+ddrx4|sclk_inferred_clock      185.1 MHz     99.7 MHz      5.402         10.028        -2.313      inferred     Autoconstr_clkgroup_0
+top|FT601_CLK                  216.8 MHz     184.3 MHz     4.613         5.427         -0.814      inferred     Autoconstr_clkgroup_1
+top|clk_int_inferred_clock     2.1 MHz       241.9 MHz     480.769       4.133         476.636     inferred     Autoconstr_clkgroup_2
+System                         729.9 MHz     620.4 MHz     1.370         1.612         -0.242      system       system_clkgroup      
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                  |    rise  to  rise     |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                    Ending                      |  constraint  slack    |  constraint  slack  |  constraint  slack   |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------
+System                      System                      |  1.370       -0.242   |  No paths    -      |  No paths    -       |  No paths    -    
+System                      ddrx4|sclk_inferred_clock   |  5.402       3.643    |  No paths    -      |  No paths    -       |  No paths    -    
+System                      top|FT601_CLK               |  4.613       0.442    |  No paths    -      |  No paths    -       |  No paths    -    
+System                      top|clk_int_inferred_clock  |  480.769     479.088  |  No paths    -      |  No paths    -       |  No paths    -    
+ddrx4|sclk_inferred_clock   System                      |  5.402       2.969    |  No paths    -      |  No paths    -       |  5.402       3.981
+ddrx4|sclk_inferred_clock   ddrx4|sclk_inferred_clock   |  5.402       -0.953   |  5.402       2.325  |  2.701       -2.313  |  2.701       1.624
+top|FT601_CLK               System                      |  4.613       1.738    |  No paths    -      |  No paths    -       |  No paths    -    
+top|FT601_CLK               top|FT601_CLK               |  4.613       -0.814   |  No paths    -      |  No paths    -       |  No paths    -    
+top|clk_int_inferred_clock  System                      |  480.769     479.725  |  No paths    -      |  No paths    -       |  No paths    -    
+top|clk_int_inferred_clock  ddrx4|sclk_inferred_clock   |  Diff grp    -        |  No paths    -      |  No paths    -       |  No paths    -    
+top|clk_int_inferred_clock  top|clk_int_inferred_clock  |  480.769     476.636  |  No paths    -      |  No paths    -       |  No paths    -    
+=================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: ddrx4|sclk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                               Arrival           
+Instance                 Reference                     Type        Pin     Net                  Time        Slack 
+                         Clock                                                                                    
+------------------------------------------------------------------------------------------------------------------
+deser_inst.q_1_rep1      ddrx4|sclk_inferred_clock     FD1S3AX     Q       enc_data_1_rep1      1.180       -2.313
+deser_inst.q_2_rep1      ddrx4|sclk_inferred_clock     FD1S3AX     Q       enc_data_2_rep1      1.180       -2.313
+deser_inst.q_fast[0]     ddrx4|sclk_inferred_clock     FD1S3AX     Q       q_fast[0]            1.108       -2.241
+deser_inst.q_fast[3]     ddrx4|sclk_inferred_clock     FD1S3AX     Q       q_fast[3]            1.108       -2.241
+deser_inst.q[0]          ddrx4|sclk_inferred_clock     FD1S3AX     Q       enc_data[0]          1.220       -2.169
+deser_inst.q_4_rep1      ddrx4|sclk_inferred_clock     FD1S3AX     Q       enc_data_4_rep1      1.220       -2.169
+deser_inst.q_fast[8]     ddrx4|sclk_inferred_clock     FD1S3AX     Q       enc_data_fast[8]     1.180       -2.129
+deser_inst.q[4]          ddrx4|sclk_inferred_clock     FD1S3IX     Q       enc_data[4]          1.244       -2.121
+deser_inst.q[2]          ddrx4|sclk_inferred_clock     FD1S3AX     Q       enc_data[2]          1.228       -2.105
+deser_inst.q[8]          ddrx4|sclk_inferred_clock     FD1S3IX     Q       enc_data[8]          1.220       -2.097
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                     Required           
+Instance            Reference                     Type        Pin     Net        Time         Slack 
+                    Clock                                                                           
+----------------------------------------------------------------------------------------------------
+decoder_inst.bo     ddrx4|sclk_inferred_clock     FD1S3AX     D       bo_1       2.790        -2.313
+decoder_inst.ao     ddrx4|sclk_inferred_clock     FD1S3AX     D       ao_1       2.790        -2.169
+decoder_inst.do     ddrx4|sclk_inferred_clock     FD1S3AX     D       do_1       2.790        -2.169
+decoder_inst.co     ddrx4|sclk_inferred_clock     FD1S3AX     D       co_1       2.790        -1.439
+decoder_inst.eo     ddrx4|sclk_inferred_clock     FD1S3AX     D       eo_1       2.790        -1.439
+decoder_inst.fo     ddrx4|sclk_inferred_clock     FD1S3AX     D       fo_1       2.790        -1.280
+decoder_inst.go     ddrx4|sclk_inferred_clock     FD1S3AX     D       go_1       2.790        -1.280
+decoder_inst.ho     ddrx4|sclk_inferred_clock     FD1S3AX     D       ho_1       2.790        -1.280
+decoder_inst.ko     ddrx4|sclk_inferred_clock     FD1S3AX     D       mode_0     2.790        -1.105
+ce                  ddrx4|sclk_inferred_clock     FD1P3AX     SP      ce_RNO     2.229        -1.085
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.701
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.790
+
+    - Propagation time:                      5.103
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.313
+
+    Number of logic level(s):                4
+    Starting point:                          deser_inst.q_1_rep1 / Q
+    Ending point:                            decoder_inst.bo / D
+    The start point is clocked by            ddrx4|sclk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            ddrx4|sclk_inferred_clock [falling] on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+deser_inst.q_1_rep1                   FD1S3AX      Q        Out     1.180     1.180       -         
+enc_data_1_rep1                       Net          -        -       -         -           5         
+decoder_inst.g0_5                     ORCALUT4     C        In      0.000     1.180       -         
+decoder_inst.g0_5                     ORCALUT4     Z        Out     1.273     2.453       -         
+p13_1                                 Net          -        -       -         -           9         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     B        In      0.000     2.453       -         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     Z        Out     1.017     3.469       -         
+bo_1_N_3L3_sn                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     B        In      0.000     3.469       -         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     Z        Out     1.017     4.486       -         
+bo_1_N_3L3_mb                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1              ORCALUT4     A        In      0.000     4.486       -         
+decoder_inst.dec5b\.bo_1              ORCALUT4     Z        Out     0.617     5.103       -         
+bo_1                                  Net          -        -       -         -           1         
+decoder_inst.bo                       FD1S3AX      D        In      0.000     5.103       -         
+====================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      2.701
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.790
+
+    - Propagation time:                      5.103
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.313
+
+    Number of logic level(s):                4
+    Starting point:                          deser_inst.q_2_rep1 / Q
+    Ending point:                            decoder_inst.bo / D
+    The start point is clocked by            ddrx4|sclk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            ddrx4|sclk_inferred_clock [falling] on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+deser_inst.q_2_rep1                   FD1S3AX      Q        Out     1.180     1.180       -         
+enc_data_2_rep1                       Net          -        -       -         -           5         
+decoder_inst.g0_5                     ORCALUT4     D        In      0.000     1.180       -         
+decoder_inst.g0_5                     ORCALUT4     Z        Out     1.273     2.453       -         
+p13_1                                 Net          -        -       -         -           9         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     B        In      0.000     2.453       -         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     Z        Out     1.017     3.469       -         
+bo_1_N_3L3_sn                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     B        In      0.000     3.469       -         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     Z        Out     1.017     4.486       -         
+bo_1_N_3L3_mb                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1              ORCALUT4     A        In      0.000     4.486       -         
+decoder_inst.dec5b\.bo_1              ORCALUT4     Z        Out     0.617     5.103       -         
+bo_1                                  Net          -        -       -         -           1         
+decoder_inst.bo                       FD1S3AX      D        In      0.000     5.103       -         
+====================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      2.701
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.790
+
+    - Propagation time:                      5.031
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.241
+
+    Number of logic level(s):                4
+    Starting point:                          deser_inst.q_fast[0] / Q
+    Ending point:                            decoder_inst.bo / D
+    The start point is clocked by            ddrx4|sclk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            ddrx4|sclk_inferred_clock [falling] on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+deser_inst.q_fast[0]                  FD1S3AX      Q        Out     1.108     1.108       -         
+q_fast[0]                             Net          -        -       -         -           3         
+decoder_inst.g0_5                     ORCALUT4     A        In      0.000     1.108       -         
+decoder_inst.g0_5                     ORCALUT4     Z        Out     1.273     2.381       -         
+p13_1                                 Net          -        -       -         -           9         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     B        In      0.000     2.381       -         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     Z        Out     1.017     3.397       -         
+bo_1_N_3L3_sn                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     B        In      0.000     3.397       -         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     Z        Out     1.017     4.414       -         
+bo_1_N_3L3_mb                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1              ORCALUT4     A        In      0.000     4.414       -         
+decoder_inst.dec5b\.bo_1              ORCALUT4     Z        Out     0.617     5.031       -         
+bo_1                                  Net          -        -       -         -           1         
+decoder_inst.bo                       FD1S3AX      D        In      0.000     5.031       -         
+====================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      2.701
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.790
+
+    - Propagation time:                      5.031
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.241
+
+    Number of logic level(s):                4
+    Starting point:                          deser_inst.q_fast[3] / Q
+    Ending point:                            decoder_inst.bo / D
+    The start point is clocked by            ddrx4|sclk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            ddrx4|sclk_inferred_clock [falling] on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+deser_inst.q_fast[3]                  FD1S3AX      Q        Out     1.108     1.108       -         
+q_fast[3]                             Net          -        -       -         -           3         
+decoder_inst.g0_5                     ORCALUT4     B        In      0.000     1.108       -         
+decoder_inst.g0_5                     ORCALUT4     Z        Out     1.273     2.381       -         
+p13_1                                 Net          -        -       -         -           9         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     B        In      0.000     2.381       -         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     Z        Out     1.017     3.397       -         
+bo_1_N_3L3_sn                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     B        In      0.000     3.397       -         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     Z        Out     1.017     4.414       -         
+bo_1_N_3L3_mb                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1              ORCALUT4     A        In      0.000     4.414       -         
+decoder_inst.dec5b\.bo_1              ORCALUT4     Z        Out     0.617     5.031       -         
+bo_1                                  Net          -        -       -         -           1         
+decoder_inst.bo                       FD1S3AX      D        In      0.000     5.031       -         
+====================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      2.701
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.790
+
+    - Propagation time:                      4.959
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.169
+
+    Number of logic level(s):                4
+    Starting point:                          deser_inst.q[0] / Q
+    Ending point:                            decoder_inst.bo / D
+    The start point is clocked by            ddrx4|sclk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            ddrx4|sclk_inferred_clock [falling] on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+deser_inst.q[0]                       FD1S3AX      Q        Out     1.220     1.220       -         
+enc_data[0]                           Net          -        -       -         -           8         
+decoder_inst.un3_or124_1              ORCALUT4     A        In      0.000     1.220       -         
+decoder_inst.un3_or124_1              ORCALUT4     Z        Out     1.089     2.309       -         
+un3_or124_1                           Net          -        -       -         -           2         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     C        In      0.000     2.309       -         
+decoder_inst.dec5b\.bo_1_N_3L3_sn     ORCALUT4     Z        Out     1.017     3.325       -         
+bo_1_N_3L3_sn                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     B        In      0.000     3.325       -         
+decoder_inst.dec5b\.bo_1_N_3L3_mb     ORCALUT4     Z        Out     1.017     4.342       -         
+bo_1_N_3L3_mb                         Net          -        -       -         -           1         
+decoder_inst.dec5b\.bo_1              ORCALUT4     A        In      0.000     4.342       -         
+decoder_inst.dec5b\.bo_1              ORCALUT4     Z        Out     0.617     4.959       -         
+bo_1                                  Net          -        -       -         -           1         
+decoder_inst.bo                       FD1S3AX      D        In      0.000     4.959       -         
+====================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: top|FT601_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                 Arrival           
+Instance                      Reference         Type        Pin     Net                Time        Slack 
+                              Clock                                                                      
+---------------------------------------------------------------------------------------------------------
+ft601_comp.ft601_txe          top|FT601_CLK     FD1S3AX     Q       ft601_txe          1.256       -0.814
+ft601_comp.i_pre_valid[0]     top|FT601_CLK     FD1S3AX     Q       i_pre_valid[0]     1.232       -0.790
+ft601_comp.i_rd_en            top|FT601_CLK     FD1S3AX     Q       i_rd_en            1.228       -0.786
+ft601_comp.i_pre_valid[1]     top|FT601_CLK     FD1S3AX     Q       i_pre_valid[1]     1.252       -0.621
+ft601_comp.i_tx_state[2]      top|FT601_CLK     FD1S3AX     Q       i_tx_state[2]      1.409       0.238 
+ft601_comp.i_tx_state[0]      top|FT601_CLK     FD1S3AX     Q       i_tx_state[0]      1.296       0.382 
+ft601_comp.i_dat_rdy          top|FT601_CLK     FD1P3AX     Q       i_dat_rdy          1.180       0.623 
+ft601_comp.i_state[5]         top|FT601_CLK     FD1S3AY     Q       i_state[5]         1.180       0.623 
+ft601_comp.ft601_rxf          top|FT601_CLK     FD1S3AX     Q       ft601_rxf          1.228       0.751 
+ft601_comp.i_state[0]         top|FT601_CLK     FD1S3AX     Q       i_state[0]         1.108       0.871 
+=========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                Required           
+Instance                  Reference         Type        Pin     Net               Time         Slack 
+                          Clock                                                                      
+-----------------------------------------------------------------------------------------------------
+ft601_comp.i_data[64]     top|FT601_CLK     FD1P3AX     D       i_data_10[64]     5.075        -0.814
+ft601_comp.i_data[65]     top|FT601_CLK     FD1P3AX     D       i_data_10[65]     5.075        -0.814
+ft601_comp.i_data[66]     top|FT601_CLK     FD1P3AX     D       i_data_10[66]     5.075        -0.814
+ft601_comp.i_data[67]     top|FT601_CLK     FD1P3AX     D       i_data_10[67]     5.075        -0.814
+ft601_comp.i_data[68]     top|FT601_CLK     FD1P3AX     D       i_data_10[68]     5.075        -0.814
+ft601_comp.i_data[69]     top|FT601_CLK     FD1P3AX     D       i_data_10[69]     5.075        -0.814
+ft601_comp.i_data[70]     top|FT601_CLK     FD1P3AX     D       i_data_10[70]     5.075        -0.814
+ft601_comp.i_data[71]     top|FT601_CLK     FD1P3AX     D       i_data_10[71]     5.075        -0.814
+ft601_comp.i_data[72]     top|FT601_CLK     FD1P3AX     D       i_data_10[72]     5.075        -0.814
+ft601_comp.i_data[73]     top|FT601_CLK     FD1P3AX     D       i_data_10[73]     5.075        -0.814
+=====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      5.889
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.814
+
+    Number of logic level(s):                5
+    Starting point:                          ft601_comp.ft601_txe / Q
+    Ending point:                            ft601_comp.i_data[64] / D
+    The start point is clocked by            top|FT601_CLK [rising] on pin CK
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+ft601_comp.ft601_txe            FD1S3AX      Q        Out     1.256     1.256       -         
+ft601_txe                       Net          -        -       -         -           14        
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     B        In      0.000     1.256       -         
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     Z        Out     1.017     2.273       -         
+g0_sn                           Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     B        In      0.000     2.273       -         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     Z        Out     1.369     3.641       -         
+N_231                           Net          -        -       -         -           34        
+ft601_comp.i_data_3[64]         ORCALUT4     A        In      0.000     3.641       -         
+ft601_comp.i_data_3[64]         ORCALUT4     Z        Out     1.017     4.658       -         
+i_data_3[64]                    Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[64]     ORCALUT4     B        In      0.000     4.658       -         
+ft601_comp.i_data_10_am[64]     ORCALUT4     Z        Out     1.017     5.675       -         
+i_data_10_am[64]                Net          -        -       -         -           1         
+ft601_comp.i_data_10[64]        PFUMX        BLUT     In      0.000     5.675       -         
+ft601_comp.i_data_10[64]        PFUMX        Z        Out     0.214     5.889       -         
+i_data_10[64]                   Net          -        -       -         -           1         
+ft601_comp.i_data[64]           FD1P3AX      D        In      0.000     5.889       -         
+==============================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      5.889
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.814
+
+    Number of logic level(s):                5
+    Starting point:                          ft601_comp.ft601_txe / Q
+    Ending point:                            ft601_comp.i_data[86] / D
+    The start point is clocked by            top|FT601_CLK [rising] on pin CK
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+ft601_comp.ft601_txe            FD1S3AX      Q        Out     1.256     1.256       -         
+ft601_txe                       Net          -        -       -         -           14        
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     B        In      0.000     1.256       -         
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     Z        Out     1.017     2.273       -         
+g0_sn                           Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     B        In      0.000     2.273       -         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     Z        Out     1.369     3.641       -         
+N_231                           Net          -        -       -         -           34        
+ft601_comp.i_data_3[86]         ORCALUT4     A        In      0.000     3.641       -         
+ft601_comp.i_data_3[86]         ORCALUT4     Z        Out     1.017     4.658       -         
+i_data_3[86]                    Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[86]     ORCALUT4     B        In      0.000     4.658       -         
+ft601_comp.i_data_10_am[86]     ORCALUT4     Z        Out     1.017     5.675       -         
+i_data_10_am[86]                Net          -        -       -         -           1         
+ft601_comp.i_data_10[86]        PFUMX        BLUT     In      0.000     5.675       -         
+ft601_comp.i_data_10[86]        PFUMX        Z        Out     0.214     5.889       -         
+i_data_10[86]                   Net          -        -       -         -           1         
+ft601_comp.i_data[86]           FD1P3AX      D        In      0.000     5.889       -         
+==============================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      5.889
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.814
+
+    Number of logic level(s):                5
+    Starting point:                          ft601_comp.ft601_txe / Q
+    Ending point:                            ft601_comp.i_data[92] / D
+    The start point is clocked by            top|FT601_CLK [rising] on pin CK
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+ft601_comp.ft601_txe            FD1S3AX      Q        Out     1.256     1.256       -         
+ft601_txe                       Net          -        -       -         -           14        
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     B        In      0.000     1.256       -         
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     Z        Out     1.017     2.273       -         
+g0_sn                           Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     B        In      0.000     2.273       -         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     Z        Out     1.369     3.641       -         
+N_231                           Net          -        -       -         -           34        
+ft601_comp.i_data_3[92]         ORCALUT4     A        In      0.000     3.641       -         
+ft601_comp.i_data_3[92]         ORCALUT4     Z        Out     1.017     4.658       -         
+i_data_3[92]                    Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[92]     ORCALUT4     B        In      0.000     4.658       -         
+ft601_comp.i_data_10_am[92]     ORCALUT4     Z        Out     1.017     5.675       -         
+i_data_10_am[92]                Net          -        -       -         -           1         
+ft601_comp.i_data_10[92]        PFUMX        BLUT     In      0.000     5.675       -         
+ft601_comp.i_data_10[92]        PFUMX        Z        Out     0.214     5.889       -         
+i_data_10[92]                   Net          -        -       -         -           1         
+ft601_comp.i_data[92]           FD1P3AX      D        In      0.000     5.889       -         
+==============================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      5.889
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.814
+
+    Number of logic level(s):                5
+    Starting point:                          ft601_comp.ft601_txe / Q
+    Ending point:                            ft601_comp.i_data[71] / D
+    The start point is clocked by            top|FT601_CLK [rising] on pin CK
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+ft601_comp.ft601_txe            FD1S3AX      Q        Out     1.256     1.256       -         
+ft601_txe                       Net          -        -       -         -           14        
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     B        In      0.000     1.256       -         
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     Z        Out     1.017     2.273       -         
+g0_sn                           Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     B        In      0.000     2.273       -         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     Z        Out     1.369     3.641       -         
+N_231                           Net          -        -       -         -           34        
+ft601_comp.i_data_3[71]         ORCALUT4     A        In      0.000     3.641       -         
+ft601_comp.i_data_3[71]         ORCALUT4     Z        Out     1.017     4.658       -         
+i_data_3[71]                    Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[71]     ORCALUT4     B        In      0.000     4.658       -         
+ft601_comp.i_data_10_am[71]     ORCALUT4     Z        Out     1.017     5.675       -         
+i_data_10_am[71]                Net          -        -       -         -           1         
+ft601_comp.i_data_10[71]        PFUMX        BLUT     In      0.000     5.675       -         
+ft601_comp.i_data_10[71]        PFUMX        Z        Out     0.214     5.889       -         
+i_data_10[71]                   Net          -        -       -         -           1         
+ft601_comp.i_data[71]           FD1P3AX      D        In      0.000     5.889       -         
+==============================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      5.889
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.814
+
+    Number of logic level(s):                5
+    Starting point:                          ft601_comp.ft601_txe / Q
+    Ending point:                            ft601_comp.i_data[65] / D
+    The start point is clocked by            top|FT601_CLK [rising] on pin CK
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+ft601_comp.ft601_txe            FD1S3AX      Q        Out     1.256     1.256       -         
+ft601_txe                       Net          -        -       -         -           14        
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     B        In      0.000     1.256       -         
+ft601_comp.i_rd_en_RNIM3121     ORCALUT4     Z        Out     1.017     2.273       -         
+g0_sn                           Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     B        In      0.000     2.273       -         
+ft601_comp.i_rd_en_RNILMOU1     ORCALUT4     Z        Out     1.369     3.641       -         
+N_231                           Net          -        -       -         -           34        
+ft601_comp.i_data_3[65]         ORCALUT4     A        In      0.000     3.641       -         
+ft601_comp.i_data_3[65]         ORCALUT4     Z        Out     1.017     4.658       -         
+i_data_3[65]                    Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[65]     ORCALUT4     B        In      0.000     4.658       -         
+ft601_comp.i_data_10_am[65]     ORCALUT4     Z        Out     1.017     5.675       -         
+i_data_10_am[65]                Net          -        -       -         -           1         
+ft601_comp.i_data_10[65]        PFUMX        BLUT     In      0.000     5.675       -         
+ft601_comp.i_data_10[65]        PFUMX        Z        Out     0.214     5.889       -         
+i_data_10[65]                   Net          -        -       -         -           1         
+ft601_comp.i_data[65]           FD1P3AX      D        In      0.000     5.889       -         
+==============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: top|clk_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                Starting                                                                Arrival            
+Instance                                                        Reference                      Type        Pin     Net                  Time        Slack  
+                                                                Clock                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT0_REG_Z134          top|clk_int_inferred_clock     FD1P3DX     Q       CTRL_CNT[0]          1.220       476.636
+deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT1_REG_Z136          top|clk_int_inferred_clock     FD1P3DX     Q       CTRL_CNT[1]          1.220       476.636
+deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT_FAST2_REG_Z138     top|clk_int_inferred_clock     FD1S3DX     Q       CTRL_CNT_FAST[2]     1.108       476.748
+deser_inst.ddrx4_inst.Inst5_rx_sync.STAT5_REG_Z116              top|clk_int_inferred_clock     FD1S3DX     Q       STATE[5]             1.188       477.724
+deser_inst.ddrx4_inst.Inst5_rx_sync.RX_START_REG_Z122           top|clk_int_inferred_clock     FD1S3DX     Q       rx_rdy               1.331       477.757
+deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT2_REG_Z140          top|clk_int_inferred_clock     FD1S3DX     Q       CTRL_CNT[2]          1.148       477.764
+deser_inst.ddrx4_inst.Inst5_rx_sync.STATE0_REG_Z106             top|clk_int_inferred_clock     FD1S3BX     Q       STATE[0]             1.228       477.981
+deser_inst.ddrx4_inst.Inst5_rx_sync.LOCK_P2_REG_Z128            top|clk_int_inferred_clock     FD1S3DX     Q       LOCK_P2              1.148       478.005
+deser_inst.ddrx4_inst.Inst5_rx_sync.LOCK_P2_FAST_REG_Z126       top|clk_int_inferred_clock     FD1S3DX     Q       LOCK_P2_FAST         0.972       478.117
+deser_inst.ddrx4_inst.Inst5_rx_sync.STATE1_REG_Z108             top|clk_int_inferred_clock     FD1S3DX     Q       STATE[1]             1.108       478.117
+===========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                               Starting                                                                Required            
+Instance                                                       Reference                      Type        Pin     Net                  Time         Slack  
+                                                               Clock                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+deser_inst.ddrx4_inst.Inst5_rx_sync.STAT2_REG_Z110             top|clk_int_inferred_clock     FD1S3DX     D       N_172_I              480.858      476.636
+deser_inst.ddrx4_inst.Inst5_rx_sync.STAT3_REG_Z112             top|clk_int_inferred_clock     FD1S3DX     D       N_171_I              480.858      476.636
+deser_inst.ddrx4_inst.Inst5_rx_sync.STAT4_REG_Z114             top|clk_int_inferred_clock     FD1S3DX     D       N_170_I              480.858      476.636
+deser_inst.ddrx4_inst.Inst5_rx_sync.RX_START_FAST_REG_Z120     top|clk_int_inferred_clock     FD1S3DX     D       RX_STARTE_0_FAST     480.858      476.916
+deser_inst.ddrx4_inst.Inst5_rx_sync.RX_START_REG_Z122          top|clk_int_inferred_clock     FD1S3DX     D       RX_STARTE_0          480.858      476.916
+deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT1_REG_Z136         top|clk_int_inferred_clock     FD1P3DX     D       CTRL_CNT_N1          481.232      477.724
+deser_inst.ddrx4_inst.Inst5_rx_sync.STATE0_REG_Z106            top|clk_int_inferred_clock     FD1S3BX     D       N_25_i               480.858      477.789
+deser_inst.ddrx4_inst.Inst5_rx_sync.STATE1_REG_Z108            top|clk_int_inferred_clock     FD1S3DX     D       N_32_i               480.858      477.789
+deser_inst.ddrx4_inst.Inst5_rx_sync.STAT5_REG_Z116             top|clk_int_inferred_clock     FD1S3DX     D       N_169_I              480.858      477.893
+deser_inst.ddrx4_inst.Inst5_rx_sync.FREEZE_REG_Z132            top|clk_int_inferred_clock     FD1S3DX     D       N_20_i               480.858      477.933
+===========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.858
+
+    - Propagation time:                      4.222
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 476.636
+
+    Number of logic level(s):                3
+    Starting point:                          deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT0_REG_Z134 / Q
+    Ending point:                            deser_inst.ddrx4_inst.Inst5_rx_sync.STAT4_REG_Z114 / D
+    The start point is clocked by            top|clk_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            top|clk_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+deser_inst.ddrx4_inst.Inst5_rx_sync.CTRL_CNT0_REG_Z134     FD1P3DX      Q        Out     1.220     1.220       -         
+CTRL_CNT[0]                                                Net          -        -       -         -           8         
+deser_inst.ddrx4_inst.Inst5_rx_sync.N_172_I_0_o2           ORCALUT4     C        In      0.000     1.220       -         
+deser_inst.ddrx4_inst.Inst5_rx_sync.N_172_I_0_o2           ORCALUT4     Z        Out     1.233     2.453       -         
+N_43                                                       Net          -        -       -         -           6         
+deser_inst.ddrx4_inst.Inst5_rx_sync.N_172_I_0_a2_1         ORCALUT4     A        In      0.000     2.453       -         
+deser_inst.ddrx4_inst.Inst5_rx_sync.N_172_I_0_a2_1         ORCALUT4     Z        Out     1.153     3.605       -         
+N_90                                                       Net          -        -       -         -           3         
+deser_inst.ddrx4_inst.Inst5_rx_sync.N_170_I_0              ORCALUT4     B        In      0.000     3.605       -         
+deser_inst.ddrx4_inst.Inst5_rx_sync.N_170_I_0              ORCALUT4     Z        Out     0.617     4.222       -         
+N_170_I                                                    Net          -        -       -         -           1         
+deser_inst.ddrx4_inst.Inst5_rx_sync.STAT4_REG_Z114         FD1S3DX      D        In      0.000     4.222       -         
+=========================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                          Starting                                                  Arrival           
+Instance                                  Reference     Type          Pin        Net                Time        Slack 
+                                          Clock                                                                       
+----------------------------------------------------------------------------------------------------------------------
+fifo_rd_en                                System        FD1S3AX       Q          fifo_rd_en         0.972       -0.242
+cdc_fifo_inst.async_fifo_0_1              System        fifo8kb       aef        fifo_almst_emp     0.000       0.442 
+deser_inst.ddrx4_inst.AND2_t1             System        AND2          Z          uddcntln_t         0.000       1.370 
+deser_inst.ddrx4_inst.Inst3_DQSDLLC       System        DQSDLLC       DQSDEL     dqsdel             0.000       1.370 
+deser_inst.ddrx4_inst.Inst4_DLLDELC       System        DLLDELC       CLKO       eclki              0.000       1.370 
+deser_inst.ddrx4_inst.Inst6_ECLKSYNCA     System        ECLKSYNCA     ECLKO      eclko              0.000       1.370 
+deser_inst.ddrx4_inst.OR2_t0              System        OR2           Z          freeze_t           0.000       1.370 
+cdc_fifo_inst.async_fifo_0_1              System        fifo8kb       ef         empty              0.000       1.370 
+cdc_fifo_inst.async_fifo_0_1              System        fifo8kb       ff         full               0.000       1.370 
+deser_inst.ddrx4_inst.udel_dataini0       System        DELAYE        Z          dataini_t[0]       0.000       1.370 
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                              Required           
+Instance                         Reference     Type        Pin       Net               Time         Slack 
+                                 Clock                                                                    
+----------------------------------------------------------------------------------------------------------
+cdc_fifo_inst.async_fifo_0_1     System        fifo8kb     rprst     fifo_rd_en_i      1.370        -0.242
+cdc_fifo_inst.async_fifo_1_0     System        fifo8kb     rprst     fifo_rd_en_i      1.370        -0.242
+ft601_comp.i_data[64]            System        FD1P3AX     D         i_data_10[64]     5.075        0.442 
+ft601_comp.i_data[65]            System        FD1P3AX     D         i_data_10[65]     5.075        0.442 
+ft601_comp.i_data[66]            System        FD1P3AX     D         i_data_10[66]     5.075        0.442 
+ft601_comp.i_data[67]            System        FD1P3AX     D         i_data_10[67]     5.075        0.442 
+ft601_comp.i_data[68]            System        FD1P3AX     D         i_data_10[68]     5.075        0.442 
+ft601_comp.i_data[69]            System        FD1P3AX     D         i_data_10[69]     5.075        0.442 
+ft601_comp.i_data[70]            System        FD1P3AX     D         i_data_10[70]     5.075        0.442 
+ft601_comp.i_data[71]            System        FD1P3AX     D         i_data_10[71]     5.075        0.442 
+==========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1.370
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.370
+
+    - Propagation time:                      1.612
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.242
+
+    Number of logic level(s):                1
+    Starting point:                          fifo_rd_en / Q
+    Ending point:                            cdc_fifo_inst.async_fifo_0_1 / rprst
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                               Pin       Pin               Arrival     No. of    
+Name                             Type        Name      Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+fifo_rd_en                       FD1S3AX     Q         Out     0.972     0.972       -         
+fifo_rd_en                       Net         -         -       -         -           1         
+fifo_rd_en_RNIBKI9               INV         A         In      0.000     0.972       -         
+fifo_rd_en_RNIBKI9               INV         Z         Out     0.640     1.612       -         
+fifo_rd_en_i                     Net         -         -       -         -           2         
+cdc_fifo_inst.async_fifo_0_1     fifo8kb     rprst     In      0.000     1.612       -         
+===============================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      1.370
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.370
+
+    - Propagation time:                      1.612
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.242
+
+    Number of logic level(s):                1
+    Starting point:                          fifo_rd_en / Q
+    Ending point:                            cdc_fifo_inst.async_fifo_1_0 / rprst
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                               Pin       Pin               Arrival     No. of    
+Name                             Type        Name      Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+fifo_rd_en                       FD1S3AX     Q         Out     0.972     0.972       -         
+fifo_rd_en                       Net         -         -       -         -           1         
+fifo_rd_en_RNIBKI9               INV         A         In      0.000     0.972       -         
+fifo_rd_en_RNIBKI9               INV         Z         Out     0.640     1.612       -         
+fifo_rd_en_i                     Net         -         -       -         -           2         
+cdc_fifo_inst.async_fifo_1_0     fifo8kb     rprst     In      0.000     1.612       -         
+===============================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      4.633
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.442
+
+    Number of logic level(s):                5
+    Starting point:                          cdc_fifo_inst.async_fifo_0_1 / aef
+    Ending point:                            ft601_comp.i_data[64] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cdc_fifo_inst.async_fifo_0_1     fifo8kb      aef      Out     0.000     0.000       -         
+fifo_almst_emp                   Net          -        -       -         -           8         
+ft601_comp.i_rd_en_RNIM3121      ORCALUT4     A        In      0.000     0.000       -         
+ft601_comp.i_rd_en_RNIM3121      ORCALUT4     Z        Out     1.017     1.017       -         
+g0_sn                            Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1      ORCALUT4     B        In      0.000     1.017       -         
+ft601_comp.i_rd_en_RNILMOU1      ORCALUT4     Z        Out     1.369     2.386       -         
+N_231                            Net          -        -       -         -           34        
+ft601_comp.i_data_3[64]          ORCALUT4     A        In      0.000     2.386       -         
+ft601_comp.i_data_3[64]          ORCALUT4     Z        Out     1.017     3.402       -         
+i_data_3[64]                     Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[64]      ORCALUT4     B        In      0.000     3.402       -         
+ft601_comp.i_data_10_am[64]      ORCALUT4     Z        Out     1.017     4.419       -         
+i_data_10_am[64]                 Net          -        -       -         -           1         
+ft601_comp.i_data_10[64]         PFUMX        BLUT     In      0.000     4.419       -         
+ft601_comp.i_data_10[64]         PFUMX        Z        Out     0.214     4.633       -         
+i_data_10[64]                    Net          -        -       -         -           1         
+ft601_comp.i_data[64]            FD1P3AX      D        In      0.000     4.633       -         
+===============================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      4.633
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.442
+
+    Number of logic level(s):                5
+    Starting point:                          cdc_fifo_inst.async_fifo_0_1 / aef
+    Ending point:                            ft601_comp.i_data[86] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cdc_fifo_inst.async_fifo_0_1     fifo8kb      aef      Out     0.000     0.000       -         
+fifo_almst_emp                   Net          -        -       -         -           8         
+ft601_comp.i_rd_en_RNIM3121      ORCALUT4     A        In      0.000     0.000       -         
+ft601_comp.i_rd_en_RNIM3121      ORCALUT4     Z        Out     1.017     1.017       -         
+g0_sn                            Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1      ORCALUT4     B        In      0.000     1.017       -         
+ft601_comp.i_rd_en_RNILMOU1      ORCALUT4     Z        Out     1.369     2.386       -         
+N_231                            Net          -        -       -         -           34        
+ft601_comp.i_data_3[86]          ORCALUT4     A        In      0.000     2.386       -         
+ft601_comp.i_data_3[86]          ORCALUT4     Z        Out     1.017     3.402       -         
+i_data_3[86]                     Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[86]      ORCALUT4     B        In      0.000     3.402       -         
+ft601_comp.i_data_10_am[86]      ORCALUT4     Z        Out     1.017     4.419       -         
+i_data_10_am[86]                 Net          -        -       -         -           1         
+ft601_comp.i_data_10[86]         PFUMX        BLUT     In      0.000     4.419       -         
+ft601_comp.i_data_10[86]         PFUMX        Z        Out     0.214     4.633       -         
+i_data_10[86]                    Net          -        -       -         -           1         
+ft601_comp.i_data[86]            FD1P3AX      D        In      0.000     4.633       -         
+===============================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      4.613
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.075
+
+    - Propagation time:                      4.633
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.442
+
+    Number of logic level(s):                5
+    Starting point:                          cdc_fifo_inst.async_fifo_0_1 / aef
+    Ending point:                            ft601_comp.i_data[92] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            top|FT601_CLK [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cdc_fifo_inst.async_fifo_0_1     fifo8kb      aef      Out     0.000     0.000       -         
+fifo_almst_emp                   Net          -        -       -         -           8         
+ft601_comp.i_rd_en_RNIM3121      ORCALUT4     A        In      0.000     0.000       -         
+ft601_comp.i_rd_en_RNIM3121      ORCALUT4     Z        Out     1.017     1.017       -         
+g0_sn                            Net          -        -       -         -           1         
+ft601_comp.i_rd_en_RNILMOU1      ORCALUT4     B        In      0.000     1.017       -         
+ft601_comp.i_rd_en_RNILMOU1      ORCALUT4     Z        Out     1.369     2.386       -         
+N_231                            Net          -        -       -         -           34        
+ft601_comp.i_data_3[92]          ORCALUT4     A        In      0.000     2.386       -         
+ft601_comp.i_data_3[92]          ORCALUT4     Z        Out     1.017     3.402       -         
+i_data_3[92]                     Net          -        -       -         -           1         
+ft601_comp.i_data_10_am[92]      ORCALUT4     B        In      0.000     3.402       -         
+ft601_comp.i_data_10_am[92]      ORCALUT4     Z        Out     1.017     4.419       -         
+i_data_10_am[92]                 Net          -        -       -         -           1         
+ft601_comp.i_data_10[92]         PFUMX        BLUT     In      0.000     4.419       -         
+ft601_comp.i_data_10[92]         PFUMX        Z        Out     0.214     4.633       -         
+i_data_10[92]                    Net          -        -       -         -           1         
+ft601_comp.i_data[92]            FD1P3AX      D        In      0.000     4.633       -         
+===============================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 157MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 157MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_2000hc-6
+
+Register bits: 338 of 2112 (16%)
+PIC Latch:       0
+I/O cells:       47
+
+
+Details:
+AND2:           1
+FD1P3AX:        219
+FD1P3DX:        2
+FD1S3AX:        57
+FD1S3AY:        1
+FD1S3BX:        2
+FD1S3DX:        14
+FD1S3IX:        9
+GSR:            1
+IB:             5
+INV:            10
+OB:             6
+OBZ:            36
+OFS1P3DX:       34
+OR2:            1
+ORCALUT4:       538
+OSCH:           1
+PFUMX:          47
+PUR:            1
+VHI:            7
+VLO:            7
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 34MB peak: 157MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Aug  4 17:54:09 2019
+
+###########################################################]

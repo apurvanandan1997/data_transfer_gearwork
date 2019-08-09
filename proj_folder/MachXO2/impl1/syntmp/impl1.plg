@@ -1,0 +1,29 @@
+@P:  Worst Slack : -2.313
+@P:  ddrx4|sclk_inferred_clock - Estimated Frequency : 99.7 MHz
+@P:  ddrx4|sclk_inferred_clock - Requested Frequency : 185.1 MHz
+@P:  ddrx4|sclk_inferred_clock - Estimated Period : 10.028
+@P:  ddrx4|sclk_inferred_clock - Requested Period : 5.402
+@P:  ddrx4|sclk_inferred_clock - Slack : -2.313
+@P:  top|FT601_CLK - Estimated Frequency : 184.3 MHz
+@P:  top|FT601_CLK - Requested Frequency : 216.8 MHz
+@P:  top|FT601_CLK - Estimated Period : 5.427
+@P:  top|FT601_CLK - Requested Period : 4.613
+@P:  top|FT601_CLK - Slack : -0.814
+@P:  top|clk_int_inferred_clock - Estimated Frequency : 241.9 MHz
+@P:  top|clk_int_inferred_clock - Requested Frequency : 2.1 MHz
+@P:  top|clk_int_inferred_clock - Estimated Period : 4.133
+@P:  top|clk_int_inferred_clock - Requested Period : 480.769
+@P:  top|clk_int_inferred_clock - Slack : 476.636
+@P:  System - Estimated Frequency : 620.4 MHz
+@P:  System - Requested Frequency : 729.9 MHz
+@P:  System - Estimated Period : 1.612
+@P:  System - Requested Period : 1.370
+@P:  System - Slack : -0.242
+@P:  Total Area : 548.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:03s
